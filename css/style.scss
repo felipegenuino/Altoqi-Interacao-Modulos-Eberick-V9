@@ -1,0 +1,354 @@
+// sass --watch css/style.scss:css/style.css --style compressed
+
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,300,700,200);
+
+
+ body{
+	margin: 0;
+	padding: 0;
+	background:#dadada;
+	font-family: 'Titillium Web', sans-serif;
+	text-rendering: optimizeLegibility;
+	font-weight: 300;
+}
+
+
+.header {
+	border-bottom: 5px solid #26BC7B;
+	display: inline-block;
+	width: 100%;
+	background: rgba(0,0,0,0.2);
+	clear: both;
+
+	 .nav-menu-top{
+		list-style: none;
+		width: 100%;
+		display: inline-block;
+		padding:0;
+		
+		li{ 
+	 		a {display: block;}
+		}
+	 	.brand-eberick-v9 a{ float: left; background: url(../img/logo-eberick-v9-inverse.png); width: 103px; height: 80px;}
+		.brand-altoqi a{ float: right; background: url(../img/logo-altoqi-inverse.png); width: 146px; height: 48px; margin-top: 30px;}
+
+	 }
+}
+ 
+.footer{
+	width: 100%;
+	background: rgba(0,0,0,0.2);
+	padding: 20px;
+	display: inline-block;
+
+	.copyright{ font-size: 14px; color: #aaa; float: left;}
+	.social-share{
+		float: right;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		li{float: left;
+			a{margin: 0 10px}
+		}
+	}
+}
+
+
+
+.wrap{ width: 1260px; margin: 0 auto}
+.col-1{width: 100%}
+.col-2{width: 49%}
+.col-3{width: 33.3%}
+
+.col-1, .col-2, .col-3 {
+padding: 0 10px;
+display: inline-block;
+float: left;
+}
+
+.content.light{color: #aaa; font-weight: 200}
+.content.light h1,
+.content.light h2,
+.content.light h3,
+.content.light h4 {color:#26BC7B; font-weight: 200; text-shadow: 0 1px 0 #000;}
+
+.content.light p{font-size: 17px}
+
+
+h1 {
+font-weight: 200;
+font-size: 40px;
+color: #eee !important;
+text-shadow: 0 1px 0 #000;
+}
+
+
+
+*, *:before, *:after {   -moz-box-sizing: border-box;  -webkit-box-sizing: border-box;  box-sizing: border-box; }
+/* Safari */ 	::selection 	 {	background: #FFFF00; color: #000; text-shadow: none;}
+	/* Firefox */	::-moz-selection {	background: #FFFF00; color: #000; text-shadow: none;}
+
+
+.active, svg:hover, .transition{
+	transition: all 0.5s ease 0s;
+	-ms-transition: all 0.5s ease 0s;
+	-webkit-transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+}
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+/**  * Remove border when inside `a` element in IE 8/9.	 */
+	img {    border: 0;}
+
+/**  * Correct overflow displayed oddly in IE 9. */
+	svg:not(:root) {	overflow: hidden;}
+
+
+
+
+/*! normalize.css v2.1.2 | MIT License | git.io/normalize */
+
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+ 	article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary {    display: block;}
+ 
+	/** Correct `inline-block` display not defined in IE 8/9. */
+	audio,canvas,video {    display: inline-block;}
+
+/** Prevent modern browsers from displaying `audio` without controls. Remove excess height in iOS 5 devices. */
+	audio:not([controls]) {    display: none;    height: 0;}
+
+/** Address styling not present in IE 8/9. */
+	[hidden] {    display: none;}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+	/**  * 1. Set default font family to sans-serif. * 2. Prevent iOS text size adjust after orientation change, without disabling *    user zoom. */
+	html { width: 100%;   font-family: sans-serif; /* 1 */    -ms-text-size-adjust: 100%; /* 2 */    -webkit-text-size-adjust: 100%; /* 2 */}
+
+ 
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+/** Address `outline` inconsistency between Chrome and other browsers. */
+a:focus {    outline: 0;}
+
+/** Improve readability when focused and also mouse hovered in all browsers. */
+a:active, a:hover {    outline: 0;}
+a:hover{text-decoration: underline;}
+a { outline:0; color:#28B67C; text-decoration: none; line-height: inherit;}
+a img {    border: none; }
+
+
+
+.imagem-legenda {border-left: 1px solid #222;padding-left: 30px;}
+
+.amarelo{color: #f0f238}
+
+
+.background-page{background: url(../img/classy_fabric.png);}
+.reveal-modal{background-image: url(../img/handmadepaper.png) !important;}
+
+#svg-main{ margin: 0 auto; display: block;}
+
+#fundo-1 { stroke: #000;    stroke-width: 30; stroke-opacity: 0.4; fill: #111111;}
+#fundo-2 { stroke: #000; 	stroke-width: 20; stroke-opacity: 0.4;   fill:#111111; }
+#fundo-3 { stroke: #000;    stroke-width: 20; stroke-opacity: 0.2; /* display: none */}
+
+
+.nivel-1{}
+.nivel-2{}
+.nivel-3{}
+
+.nivel-1 > path{cursor: pointer;}
+.nivel-3 > path { cursor: help;}
+
+.nivel-3 path.nivel3clicado{fill:#0C3C28 !important}
+.nivel-2 path.nivel2clicado{fill:#0C3C28 !important}
+
+/* .nivel-3 path.novo-recurso, .novo-recurso {fill: #89620E !important; background: #89620E } */
+.nivel-3 path.novo-recurso, .novo-recurso {fill: #296f09 !important; background: #89620E !important}
+
+.nivel-3 path.novo-recurso.active {fill: #296f09!important; opacity: 0.8}
+.nivel-3 path.novo-recurso:hover {fill: #296f09!important; opacity: 0.9}
+
+
+/* https://kuler.adobe.com/create/color-wheel/?base=2&rule=Shades&selected=2&name=My%20Kuler%20Theme&mode=rgb&rgbvalues=0.09848769294952026,0.48725490196078436,0.3187891113893014,0.047955778055903224,0.23725490196078436,0.15522528160203408,0.14901960784313725,0.7372549019607844,0.4823529411764706,0.15912599082186069,0.7872549019607844,0.5150657071340222,0.12880684188569047,0.6372549019607844,0.4169274092616618&swatchOrder=0,1,2,3,4*/
+.nivel-1 path { fill: #0C3C28;}
+.nivel-2 path { fill: #197C51; }
+.nivel-3 path { fill: #26BC7B; }
+
+.versao-anterior{ color: #f0f238}
+.recursos-da-base{ color: #00ff00}
+.modulos-adicionais{ color: #1ac67c}
+
+.eberick-v9{ }
+
+.nivel-1 path, .nivel-2 path, .nivel-3 path{opacity: 1; }	
+.nivel-1 path:hover, .nivel-2 path:hover, .nivel-3 path:hover{opacity: 0.7; }	
+.nivel-1 path.active, .nivel-2 path.active, .nivel-3 path.active{opacity: 1; fill:#26BC7B !important;}	
+
+.reveal-modal h1 {
+margin: 0;
+font-size: 32px;
+color: #0C3C28 !important;
+font-weight: 700;
+}
+
+.reveal-modal h1:before {
+content: "";
+border-left: 5px solid #0C3C28;
+margin-left: -40px;
+padding-left: 30px;
+}
+
+.reveal-modal hr {border-top: 1px dashed #ccc}
+.reveal-modal small {
+background: #26BC7B;
+padding: 5px 10px;
+/* border: 1px solid #197C51; */
+border-radius: 4px;
+color: #fff;
+margin-right: 10px;
+}
+
+
+.reveal-modal small span {
+	font-weight: bold;
+	text-transform: uppercase;
+	}
+
+/*
+.reveal-modal.modal-nivel-3{ border-top: 5px solid #197C51;}
+.reveal-modal.modal-nivel-2{ border-top: 5px solid #26BC7B;}
+*/
+.caracteristica-resumida { display: none; }
+.caracteristica-completa { /*display: none;*/ }
+
+
+
+
+.label {
+	display: inline;
+	padding: .2em .6em .3em;
+	font-size: 75%;
+	font-weight: 700;
+	line-height: 1;
+	color: #fff;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	border-radius: .25em;
+}
+
+
+
+
+#logo-eberick-v9{ cursor: pointer;}
+
+#logo-eberick-v9 .losangolo polygon{ opacity: 0}
+#logo-eberick-v9:hover .losangolo polygon{ opacity: 0}
+
+#logo-eberick-v9 .simbolo-v9{}
+#logo-eberick-v9:hover .simbolo-v9{}
+
+
+
+.planta-de-formas{}
+.planta-de-locacao-de-cargas {}
+.escadas-convencionais {}
+.dimensionamento-refinado-das-lages {}
+.armaduras-complementares-de-lajes {}
+.esforcos-horizontais {}
+.flechas-imediatas-e-diferidas {}
+.cad-basico 							 {}
+.ferramentas-de-lancamento-para-o-projeto 	 {}
+.pilares-com-secao-retangular-circular-e-l {}
+.vigas-com-secao-retangular {}
+.lajes-macicas {}
+.lajes-pre-moldadas-convencionais  {}
+.cortes-na-estrutura {}
+.configuracoes-para-o-projeto {}
+.analise-dos-esforcos-e-deslocamentos {}
+.dimensionamento-dos-elementos {}
+.resumo-dos-materiais {}
+.portico-3d {}
+.detalhamento-dos-elementos {}
+.sapatas-isoladas-e-de-divisa {}
+.blocos-com-ate-6-estacas {}
+
+
+
+
+
+
+/*	--------------------------------------------------
+	Reveal Modals
+	-------------------------------------------------- */
+		.reveal-modal-bg {
+		  position: fixed;
+		  height: 100%;
+		  width: 100%;
+		  background: #000;
+		  background: rgba(0, 0, 0, 0.8);
+		  z-index: 100;
+		  display: none;
+		  top: 0;
+		  left: 0;
+		}
+
+		.reveal-modal {
+		  visibility: hidden;
+		  top: 50px;
+		  left: 50%;
+		  margin-left: -300px;
+		  width: 520px;
+		  background: #eee;
+		  position: absolute;
+		  z-index: 101;
+		  padding: 30px 40px 34px;
+		  /*
+		  	-moz-border-radius: 5px;
+		  	-webkit-border-radius: 5px;
+		  	border-radius: 5px;
+		  */
+		  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+		  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+		  -box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+		  &.small {
+		    width: 200px;
+		    margin-left: -140px;
+		  }
+		  &.medium {
+		    width: 400px;
+		    margin-left: -240px;
+		  }
+		  &.large {
+		    width: 600px;
+		    margin-left: -340px;
+		  }
+		  &.xlarge {
+		    width: 800px;
+		    margin-left: -440px;
+		  }
+		  .close-reveal-modal {
+		    font-size: 22px;
+		    line-height: .5;
+		    position: absolute;
+		    top: 8px;
+		    right: 11px;
+		    color: #aaa;
+		    text-shadow: 0 -1px 1px rbga(0, 0, 0, 0.6);
+		    font-weight: bold;
+		    cursor: pointer;
+		  }
+		}
+ 
+
+

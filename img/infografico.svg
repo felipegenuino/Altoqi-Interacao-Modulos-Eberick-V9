@@ -1,1566 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
- <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
- 
-<html lang="pt-br">
-<head>
-	<meta charset="UTF-8">
-	<title>Eberick V9</title>
-
-	<!-- favicon -->   
-	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-
-
-	<link type="text/css" rel="stylesheet" media="all" href="css/style.css" />
- 
- 
-
-</head>
-<body class="background-page">
+<!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1280 1178.6" enable-background="new 0 0 1280 1178.6" xml:space="preserve">
 
 
 
-<div class="header">
-	<div class="wrap">
-		<div class="col-1">
-			
-			<ul class="nav-menu-top">
-				<li class="brand-eberick-v9">
-					<a href="http://www.altoqi.com.br/software/projeto-estrutural/eberick-v9" title="Página do Eberick V9">
- 					</a>
-				</li>
-				<li class="brand-altoqi">
-					<a href="http://www.altoqi.com.br" title="Página inicial da AltoQi">
-					</a>
-				</li>
-			</ul>
-			
-		</div> <!-- //col-1 -->
-	</div> <!-- // wrap -->
-</div> <!--//header -->
-
-
-
-
-
- 
-<section class="section-modais"> 
-
- <!-- 'AREA DOS MODAIS
-================================================================================================== -->
-
-<div id="myModal" class="reveal-modal">
-     <h1>Modal Title</h1>
-     <p>Any content could go in here.</p>
-     <a class="close-reveal-modal">&#215;</a>
-</div>
-
-
-
-
-
-<div id="modal-pilares-com-secao-composta" class="reveal-modal large modal-nivel-3">
-	    <h1>Pilares com seção composta</h1>
-	    <div class="caracteristica-resumida">
-	    	 <p>Diversas seções transversais para os pilares moldados in loco: retangular vazada, T, I, U, + e L aberto</p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>
-				<p> Além das seções transversais presentes na base do programa, o Eberick com o módulo de Pilares com seção composta pode ter diversas seções transversais para os pilares moldados in loco:
-					<ul>
-						<li> Retangular vazada </li>
-						<li> Tipo T </li>
-						<li> Tipo U </li>
-						<li> Tipo + </li>
-						<li> Tipo I </li>
-						<li> Tipo L aberto </li>
-					</ul>	
-				<p> Com a seção transversal de pilar do tipo “L aberto” é possível lançar além do pilar em L tradicional, pilares de concreto moldado in loco em formato L com ângulo entre abas diferente de 90°. Com isso, podem-se lançar pilares em “L aberto” (ângulo entre abas maior que 90°) e pilares em “L fechado” (ângulo entre abas menor que 90°). </p>
-				<p> Com estas seções transversais o projetista tem maior liberdade de lançamento para atender as exigências arquitetônicas, além de facilitar o dimensionamento e detalhamento destes elementos no projeto.  </p>
-	    </div> <!-- //caracteristica-completa -->
+<g id="fundo_geral">
+	<g>
+		<polygon fill="#060606" points="881.9,259 878.3,263.9 877.3,256.4 876.2,249 882.1,253.7 887.9,258.4 		"/>
 		
-		<small> *Recurso disponível a partir do <span>Eberick V7</span> </small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- //modal-pilares-com-secao-composta -->
-
-
-
-
-
-<div id="modal-pilares-esbeltos-e-pilares-parede" class="reveal-modal large modal-nivel-3">
-	    <h1>Pilares esbeltos e pilares-parede</h1>
-	    <div class="caracteristica-resumida">
-	    	<p>Dimensionamento de pilares-parede, onde podem existir efeitos de 2ª ordem localizados e pilares com esbeltez até 140.</p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>
-				<p> Com este módulo é possível realizar o dimensionamento de pilares-parede, onde podem existir efeitos de 2ª ordem localizados, provocados pela atuação combinada das cargas e momentos. Nestes casos o programa decompõe a seção do pilar em faixas analisadas isoladamente. Esta verificação é integrada ao processo iterativo de cálculo das armaduras do pilar, atendendo tanto à verificação da seção completa como por faixas. </p>
-				<p> Este módulo também incorpora ao Eberick um novo método de dimensionamento de pilares, chamado “pilar padrão acoplado a diagramas MxNx1/r”, com o qual a NBR 6118 permite o dimensionamento de pilares com esbeltez até 140, caso a esbeltez na direção secundária do pilar não seja relevante. Por utilizar-se de um processo mais preciso para determinação dos efeitos de 2ª ordem, em alguns casos também poderá resultar em menores armaduras desses pilares. Com isso o usuário poderá escolher entre qualquer um dos métodos existentes, buscando a alternativa mais econômica ou mais crítica. </p>
-	    </div> <!-- //caracteristica-completa -->
-		
-		<small> *Recurso disponível a partir do <span>Eberick V8</span></small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- //modal-pilares-esbeltos-e-pilares-parede -->
-
-
-
-
-
-<div id="modal-vigas-com-mesa-colaborante" class="reveal-modal large modal-nivel-3">
-	    <h1>Vigas com mesa colaborante</h1>
-	    <div class="caracteristica-resumida">
-	    	<p>No programa é possível considerar a contribuição da mesa da laje na rigidez das vigas de seção I, L, L invertido, T e T invertido.</p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>
-				<p> No programa é possível considerar a contribuição da mesa da laje na rigidez das vigas de seção I, L, L invertido, T e T invertido. Esta opção de considerar a mesa colaborante da laje pode auxiliar na solução das flechas do pavimento, uma alternativa interessante para os casos em que as flechas excedam os limites recomendados. </p>
-				<p> Para as vigas de seção I e T o programa também realiza todo o dimensionamento e detalhamento destes elementos, fornecendo mais uma opção de vigas para o projeto. </p>
-	    </div> <!-- //caracteristica-completa -->
-		
-		<small> *Recurso disponível a partir do <span>Eberick V5</span></small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- //modal-pilares-com-secao-composta -->
-
-
-
-
-
-<div id="modal-vigas-curvas" class="reveal-modal large modal-nivel-3">
-	    <h1>Vigas curvas</h1>
-	    <div class="caracteristica-resumida">
-	    	<p>Possibilidade de lançar, dimensionar e detalhar vigas curvas, permitindo inclusive a criação de vigas contínuas com trechos retos curvos.</p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>
-				<p> Possibilidade de lançar vigas curvas definidas através de segmentos de arco, permitindo inclusive a criação de vigas contínuas com trechos retos curvos, atendendo a eventuais exigências dos projetos arquitetônicos.</p>
-				<p> As vigas curvas também serão representadas no modelo de pórtico espacial que representa a estrutura. Com isso, os esforços necessários para o dimensionamento dessa viga são determinados de forma adequada, incluindo os efeitos de torção pertinentes, gerando o detalhamento completo destes elementos. </p>
-				<p> As vigas curvas também são representadas no pórtico 3D e plantas de formas, conferindo um grau de acabamento elevado para os desenhos do projeto.</p>
-  	    </div> <!-- //caracteristica-completa -->
-		
-		<small class="novo-recurso"> <span>Lançamento</span></small> 
-		<small> *Recurso disponível a partir do <span>Eberick V9</span></small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- //modal-vigas-curvas -->
-
-
-
-
-
-
-<div id="modal-vigas-com-variacao-de-secao-no-trecho" class="reveal-modal large modal-nivel-3">
-	    <h1>Viga com variação de seção no trecho</h1>
-	    <div class="caracteristica-resumida">
-	    	<p> Este módulo acrescenta ao Eberick a possibilidade de calcular vigas com trechos de alturas diferentes no mesmo vão.</p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>
-				<p> A existência de desníveis na edificação ou mesmo limitações geométricas muitas vezes exigem soluções alternativas como a alteração da seção em pequenos trechos da viga. Como alternativa de solução, este módulo acrescenta ao Eberick a possibilidade de calcular vigas com trechos de alturas diferentes no mesmo vão, podendo obter esse dimensionamento em diversas situações, tanto alterando a seção na parte superior, quanto inferior ou ainda apenas alterando a altura em um pequeno trecho do vão. </p>
-				<p> O programa gera ainda todo o detalhamento, incluindo as armaduras de suspensão e concentrando os estribos quando necessário. </p>
-  	    </div> <!-- //caracteristica-completa -->
-		
-		<small> *Recurso disponível a partir do <span>Eberick V7</span></small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- //modal-vigas-com-variacao-de-secao-no-trecho -->
-
-
-
-
-
-
-
-<div id="modal-memorial-de-calculo" class="reveal-modal large modal-nivel-3">
-	    <h1>Memorial de cálculo</h1>
-	    <div class="caracteristica-resumida">
-	    	<p>Geração automática de documento base para memorial de cálculo e relatório de critérios de projeto personalizados.</p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>
-				<p> Com este módulo é possível gerar automaticamente documentos base para memorial de cálculo e de critérios de projeto. A memória de cálculo é constituída por relatórios de cálculo de todos os elementos estruturais em um documento único que pode ser aberto em softwares como Microsoft Word® e Internet Explorer®. No Memorial de Cálculo também é possível gerar os diagramas de carregamento, esforços cortante, momento fletor e torçor e deslocamentos de todas as vigas do projeto agrupados em um único documento. </p>
-				<p> Já o documento de critérios de projeto contém informações como materiais utilizados, critérios de durabilidade, carregamentos, etc, que são definidos através de parâmetros extraídos do próprio projeto. </p>
-   	    </div> <!-- //caracteristica-completa -->
-		
-		<small> *Recurso disponível a partir do <span>Eberick V7</span></small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- //modal-memorial-de-calculo -->
-
-
-
-
-
-
-
-
-
-<div id="modal-lajes-com-vigotas-protendidas" class="reveal-modal large modal-nivel-3">
-	    <h1>Lajes com vigotas protendidas </h1>
-	    <div class="caracteristica-resumida">
-	    	<p>No Eberick é possível cadastrar lajes com vigotas protendidas de acordo com os dados do fabricante.</p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>
-				<p> No Eberick é possível cadastrar lajes com vigotas protendidas de acordo com os dados do fabricante. Para cada arranjo de vigotas e blocos é associado uma tabela com os dados de vão máximo e sobrecarga limite para que o programa verifique se estes parâmetros atendem aos requisitos do projeto. O usuário pode cadastrar diferentes arranjos e fabricantes, conforme a disponibilidade dos fabricantes. </p>
-				<p> Caso a relação entre o vão e a sobrecarga não atenda à geometria e resultado de esforços da laje o programa indica erro de dimensionamento, alertando o usuário sobre determinada situação, conferindo mais segurança nas verificações do projeto. </p>
-				<p> As vigotas protendidas ainda são listadas nos relatórios, quantitativos de materiais e desenhadas na planta de forma, indicando a posição correta para montagem na obra. </p>
-    	</div> <!-- //caracteristica-completa -->
-		
-		<small> *Recurso disponível a partir do <span>Eberick V7</span></small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- //modal-lajes-com-vigotas-protendidas -->
-
-
-
-
-
-
-
-<div id="modal-editor-simplificado-de-armaduras" class="reveal-modal large modal-nivel-3">
-	    <h1>Editor Simplificado de armaduras</h1>
-	    <div class="caracteristica-resumida">
-	    	<p>Os detalhamentos gerados pelo Eberick podem ser editados manualmente pelo usuário, mantendo a relação de aço atualizada após a edição.</p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>
-			<p> Os detalhamentos gerados pelo Eberick podem ser editados manualmente pelo usuário, adequando determinadas situações às preferências individuais. A edição das armaduras pode ser feita diretamente no programa, através do editor de armaduras disponível na geração dos detalhamentos e pranchas. No editor é possível: </p>
-			<ul>
-				<li> Criar novas armaduras </li>
-				<li> Emendar armaduras </li>
-				<li> Editar segmentos de barra </li>
-				<li> Posicionar a descrição das armaduras </li>
-			</ul>
-			<p>Todas as alterações feitas com o editor de armaduras nos detalhamentos e pranchas serão contempladas na atualização da relação de aço, mantendo os dados consistentes mesmo após a edição, facilitando o trabalho na finalização do projeto. </p>
-      	</div> <!-- //caracteristica-completa -->
-		
-		<small> *Recurso disponível a partir do <span>Eberick V5</span></small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- //modal-editor-simplificado-de-armaduras -->
-
-
-
-
-
-
-
-<div id="modal-lajes-trelicadas-1d-e-2d" class="reveal-modal large modal-nivel-3">
-	    <h1>Lajes treliçadas 1D e 2D</h1>
-	    <div class="caracteristica-resumida">
-	    	<p> Possibilidade de dimensionar e detalhar lajes treliçadas, lajes tipo painel maciço e laje do tipo painel com bloco de enchimento 1D e 2D.</p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>
-				<p> Com o módulo Lajes Treliçadas 1D e 2D é possível dimensionar e detalhar diversos tipos de lajes: </p>
-					<ul>
-						<li> Lajes treliçadas uni e bidirecionais, que são compostas por vigotas treliçadas e blocos de enchimento em diversos formatos, materiais e agrupamentos. Nos casos das lajes unidirecionais ainda é possível definir uma nervura transversal de travamento. </li>
-						<li> Lajes do tipo painéis maciços uni e bidirecionais, que são lajes maciças compostas por painéis treliçados justapostos. </li>
-						<li> Lajes do tipo painéis com blocos de enchimento uni e bidirecionais, que são compostas por painéis treliçados justapostos e blocos de enchimento. </li>
-					</ul>
-				<p> O usuário pode ainda cadastrar novas treliças e blocos de enchimento, adequando o cadastro aos materiais fornecidos na sua região. As treliças são detalhadas em uma prancha de treliças e são indicadas e quantificadas nos relatórios. </p>
-				<p> Estas novas opções de lajes conferem ao usuário uma maior liberdade para definição do melhor tipo de laje para cada projeto. </p>
-       	</div> <!-- //caracteristica-completa -->
-		
-		<small> *Recurso disponível a partir do <span>Eberick V8</span></small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- //modal-lajes-trelicadas-1d-e-2d -->
-
-
-
-
-<div id="modal-lajes-nervuradas" class="reveal-modal large modal-nivel-3">
-	    <h1>Lajes nervuradas</h1>
-	    <div class="caracteristica-resumida">
-	    	<p> O Eberick permite o lançamento, dimensionamento e detalhamento de lajes nervuradas com blocos de enchimento e cubetas plásticas.</p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>
-				<p> O Eberick permite o lançamento, dimensionamento e detalhamento de lajes nervuradas com blocos de enchimento e cubetas plásticas, conferindo mais alternativas para as lajes do projeto. </p>
-				<p> A grelha das lajes é montada conforme o espaçamento entre as nervuras, gerando os resultados de esforços, deslocamentos e armaduras. As armaduras positivas, negativas e de regiões são detalhadas em planta, permitindo agrupar os detalhamentos nos eixos X e Y. </p>
-				<p> Nas lajes nervuradas podem ocorrer esforços cortantes mais significativos e nestes casos o programa gera uma armadura de cisalhamento (na forma de estribo) onde houver necessidade. Os estribos são indicados em planta, de acordo com o posicionamento das nervuras, gerando o detalhamento completo das armaduras da laje. </p>
-        </div> <!-- //caracteristica-completa -->
-		
-		<small> *Recurso disponível a partir do <span>Eberick V8</span></small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- //modal-lajes-nervuradas -->
-
-
-
-
-
-<div id="modal-muros-de-concreto" class="reveal-modal large modal-nivel-3">
-	    <h1>Muros de concreto</h1>
-	    <div class="caracteristica-resumida">
-	    	<p> Possibilidade de lançar muros de concreto em diversos formatos considerando empuxo passivo e ativo de terra e água e sobrecargas do terreno.</p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>
-				<p> Para os muros de concreto é possível definir diversos formatos, considerando suas paredes inclinadas ou dentes na base, de acordo com a preferência do projetista. Definido o formato, a altura e espessura do muro, o programa calcula a largura da base necessária para o equilíbrio da estrutura considerando empuxo passivo e ativo de terra e água e as sobrecargas no terreno de contenção, gerando o detalhamento completo das armaduras deste tipo de muro. </p>
-				<p> A análise dos esforços e deslocamentos é feita por métodos clássicos, assumindo que o muro se comporta como um corpo rígido em conjunto com o solo no qual ele é apoiado. Através da janela de dimensionamento dos muros, pode-se analisar o diagrama de empuxo e os dados do dimensionamento, com os quais o programa calcula as armaduras para a parede, base e dente. </p>
-				<p> Com o dimensionamento completo dos muros o calculista pode verificar de forma fácil e segura qual melhor opção de geometria para os muros do projeto. </p>
-          </div> <!-- //caracteristica-completa -->
-		
-		<small> *Recurso disponível a partir do <span>Eberick V5</span></small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- //modal-muros-de-concreto -->
-
-
-
-<div id="modal-muros-de-gravidade" class="reveal-modal large modal-nivel-3">
-	    <h1>Muros de gravidade</h1>
-	    <div class="caracteristica-resumida">
-	    	<p> O módulo muros de gravidade permite dimensionar e detalhar muros de gravidade constituídos de blocos de alvenaria de pedra ou concreto ciclópico.</p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>
-				<p> O módulo muros de gravidade permite analisar, dimensionar e detalhar muros de arrimo de gravidade constituídos de blocos de alvenaria de pedra ou concreto ciclópico. </p>
-				<p> O lançamento dos muros é feito diretamente no croqui, definindo-se dois pontos para a inserção. Os muros devem ser lançados desconectados da estrutura e não passam pelo processamento de pórtico, tendo seu dimensionamento já na janela de lançamento, facilitando o processo de definição da geometria mais adequada para as contenções do projeto. </p>
-				<p> Para os muros de gravidade é possível definir diversos formatos, considerando suas paredes inclinadas ou dentadas, de acordo com a preferência do projetista. Definido o formato, a altura e espessura do muro, o programa calcula a largura da base necessária para o equilíbrio da estrutura, gerando os detalhes de geometria deste tipo de muro de arrimo. </p>
-          </div> <!-- //caracteristica-completa -->
-		
-		<small> *Recurso disponível a partir do <span>Eberick V5</span></small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- //modal-muros-de-gravidade-->
-
-
-
-
-<div id="modal-paredes-de-contencao" class="reveal-modal large modal-nivel-3">
-	    <h1>Paredes de contenção</h1>
-	    <div class="caracteristica-resumida">
-	    	<p> Permite a criação de paredes de contenção ligadas à estrutura, também consideradas no modelo de pórtico.</p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>
-				<p> Este módulo confere ao Eberick a possibilidade de inserir paredes de contenção ligadas à estrutura, incluindo abas horizontais de reforço se necessário. Através deste recurso, o projetista pode modelar paredes de contenção (cortinas) levando em consideração os esforços e deslocamentos da parede no modelo e no dimensionamento da estrutura, fazendo com que a influência da rigidez desses elementos seja considerada de modo mais apropriado. </p>
-				<p> O Eberick também gera o detalhamento completo destes elementos, concentrando as armaduras no topo e na base da parede quando necessário. </p>
-          </div> <!-- //caracteristica-completa -->
-		
-		<small> *Recurso disponível a partir do <span>Eberick V5</span></small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- // modal-paredes-de-contencao-->
-
-
-
-
-
-<div id="modal-reservatorios-elevados" class="reveal-modal large modal-nivel-3">
-	    <h1>Reservatórios elevados</h1>
-	    <div class="caracteristica-resumida">
-	    	<p> O módulo reservatórios elevados permite criar reservatórios elevados, apoiados diretamente nos elementos da estrutura.</p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>
-				<p> O módulo reservatórios elevados permite criar reservatórios elevados de até 200m² em planta apoiados diretamente nos elementos da estrutura, considerando a ação devido ao empuxo da água.</p>
-				<p> A análise é feita de forma integrada no modelo de pórtico espacial, permitindo que o calculista avalie de forma global o efeito do reservatório na estrutura. Pode-se considerar diretamente a influência dos reservatórios nos esforços, deslocamentos e estabilidade global da estrutura, trazendo maior segurança nos resultados finais. </p>
-				<p> O programa ainda gera todo o detalhamento destes reservatórios em corte e planta, incluindo algumas opções adicionais: </p>
-					<ul>
-						<li>Possibilidade de engastar paredes e paredes com lajes </li>
-						<li>Opção de adotar chanfro entre paredes ou paredes e lajes </li>
-						<li>Opção de detalhamento com armaduras concentradas </li>
-					</ul>
-            </div> <!-- //caracteristica-completa -->
-		
-		<small> *Recurso disponível a partir do <span>Eberick V5</span></small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- // modal-paredes-de-contencao-->
-
-
-
-
-
-
-
-
-<div id="modal-reservatorios-enterrados" class="reveal-modal large modal-nivel-3">
-	    <h1>Reservatórios enterrados</h1>
-	    <div class="caracteristica-resumida">
-	    	<p> Possibilidade de considerar os reservatórios apoiados diretamente no solo de suporte, criando cisternas.</p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>
-			<p> Além da possibilidade de considerar os reservatórios apoiados nos pilares, também é possível considerá-los apoiados diretamente no solo de suporte, criando cisternas em formatos retangulares. Neste caso, permite-se inserir os dados de resistência do solo para a construção de um modelo sobre molas elásticas representado através de uma grelha 3D, sendo que o programa considera a ação devido ao empuxo da água e do solo e das cargas aplicadas sobre terreno, quando for o houver.
-			<p> O programa fornece o detalhamento completo das lajes e paredes do reservatório em planta e cortes, facilitando a finalização do projeto. Para os reservatórios ainda é possível:
-				<ul>
-					<li>Engastar paredes e paredes com lajes </li>
-					<li>Adotar chanfro entre paredes ou paredes e lajes </li>
-					<li>Detalhamento com armaduras concentradas </li>
-				 </ul>
-        </div> <!-- //caracteristica-completa -->
-		
-		<small> *Recurso disponível a partir do <span>Eberick V5</span></small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- // modal-reservatorios-enterrados -->
-
-
-
-
-
-
-
-<div id="modal-verificacao-em-situacao-de-incendio" class="reveal-modal large modal-nivel-3">
-	    <h1>Verificação em situação de incêndio</h1>
-	    <div class="caracteristica-resumida">
-	    	<p> Este módulo acrescenta ao Eberick a verificação da estrutura em situação de incêndio através de uma janela específica.</p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>
-			<p> Este módulo acrescenta ao Eberick a verificação da estrutura em situação de incêndio através de uma janela específica, onde são emitidos avisos e demonstrados os parâmetros e resultados das verificações de incêndio de cada elemento, fazendo com que o processo de adequação da estrutura à verificação de incêndio torne-se simples e prático. </p>
-			<p> Dentre as verificações, destacam-se: </p>
-				<ul>
-					<li> Verificação de pilares através de método analítico </li>
-					<li> Verificação de lajes e vigas através de método tabular </li>
-					<li> Reservatórios, paredes e escadas verificados como lajes </li>
-					<li> Consideração de revestimentos nas verificações de incêndio </li>
-					<li> Consideração do Método do Tempo Equivalente </li>
-					<li> Cálculo automático do tempo requerido de resistência ao fogo </li>
-					<li> Consideração do redutor Δc1 na verificação de vigas </li>
-					<li> Esforços obtidos através de combinações de incêndio </li>
-				</ul>	
-			<p> Todas as verificações são apresentadas também nos relatórios de verificação de incêndio e no memorial de cálculo do programa, oferecendo maior agilidade e confiabilidade. </p>
-
-        </div> <!-- //caracteristica-completa -->
-		
-		<small> *Recurso disponível a partir do <span>Eberick V7</span> </small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- // modal-verificacao-em-situacao-de-incendio -->
-
-
-
-
-
-
-
-
-
-<div id="modal-fundacoes-associadas" class="reveal-modal large modal-nivel-3">
-	    <h1>Fundações associadas</h1>
-	    <div class="caracteristica-resumida">
-	    	<p> No Eberick também é possível associar as fundações de pilares que estiverem próximos, como no caso de juntas de dilatação.</p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>		
-				<p>No Eberick também é possível associar as fundações de pilares convencionais que estejam próximos, como no caso de juntas de dilatação, por exemplo. Nestes casos, podem-se agrupar os pilares em uma única fundação, que pode ser bloco, sapata ou tubulão associado, sendo que o programa fará todo o cálculo e detalhamento desta fundação considerando as excentricidades nas fundações decorrentes das cargas e momentos diferenciais. </p>
-        </div> <!-- //caracteristica-completa -->
-		
-		<small> *Recurso disponível a partir do <span>Eberick V5 Gold</span></small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- // modal-fundacoes-associadas -->
-
-
-
-
-
-
-<div id="modal-planta-de-locacao-das-estacas" class="reveal-modal large modal-nivel-3">
-	    <h1>Planta de locação das estacas</h1>
-	    <div class="caracteristica-resumida">
-	    	<p> Criada opção para gerar locação das estacas, contendo a identificação e uma tabela com as coordenadas específicas de cada estaca do projeto.</p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>		
-				<p> Além da planta de locação dos pilares, o Eberick também permite gerar uma planta de locação específica para as estacas, contendo a indicação individual de cada estaca e uma tabela que contém as coordenadas de cada uma dessas estacas, permitindo locá-las individualmente. Para quem fazia este trabalho de levantar as coordenadas manualmente, este recurso representa uma grande redução no tempo de geração dos desenhos. </p>
-				<p> O Eberick também permite incluir outras tabelas complementares na planta de locação das estacas como, por exemplo, uma tabela contendo os esforços no topo de cada uma das estacas, facilitando o dimensionamento das estacas. </p>
-        </div> <!-- //caracteristica-completa -->
-		
-		<small> *Recurso disponível a partir do <span>Eberick V8</span></small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- // modal-planta-de-locacao-das-estacas -->
-
-
-
-
-
-
-
-<div id="modal-lancamento-de-estacas-isoladas" class="reveal-modal large modal-nivel-3">
-	    <h1>Lançamento de estacas isoladas</h1>
-	    <div class="caracteristica-resumida">
-	    	<p>O Eberick permite o lançamento de estacas isoladas, servindo de apoio direto para as vigas, sem a necessidade de blocos de coroamento. </p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>		
-				<p> O Eberick permite o lançamento de estacas isoladas, servindo de apoio direto para as vigas, sem a necessidade de blocos de coroamento. Nestes casos a estaca é considerada um ponto de apoio para a viga e com isso o usuário tem mais uma alternativa para as fundações do projeto. </p>
-				<p> Os esforços oriundos do pórtico são aplicados nas estacas e a peça é verificada de acordo com os parâmetros de resistência cadastrados pelo usuário. </p>
-				<p> As estacas também são representadas na planta de locação, cargas e locação das estacas, gerando todos os dados necessários para o posicionamento correto dos elementos na obra. </p>
-         </div> <!-- //caracteristica-completa -->
-		
-		<small> *Recurso disponível a partir do <span>Eberick V9</span></small>
-		<small class="novo-recurso"> <span>Lançamento</span></small> 
-
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- // modal-lancamento-de-estacas-isoladas -->
-
-
-
-
-
-
-
-<div id="modal-estacas-metalicas" class="reveal-modal large modal-nivel-3">
-	    <h1>Estacas metálicas</h1>
-	    <div class="caracteristica-resumida">
-	    	<p>Possibilidade de cadastrar no Eberick estacas metálicas do tipo perfil I, trilho ou tubular, definindo a geometria e resistência da estaca. </p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>		
-				<p> Com este módulo é possível cadastrar no Eberick estacas metálicas do tipo perfil I, trilho ou tubular, definindo a geometria e a resistência da estaca. A partir destes dados o programa calcula quantas estacas são necessárias para cada bloco e gera o detalhamento incluindo as armaduras do bloco, as estacas e um detalhe da ligação estaca bloco. </p>
-				<p> As estacas metálicas também são representadas na planta de locação das fundações e locação das estacas, gerando desenhos com elevado nível de qualidade. </p>
-          </div> <!-- //caracteristica-completa -->
-		
-		<small> *Recurso disponível a partir do <span>Eberick V9</span></small>
-		<small class="novo-recurso"> <span>Lançamento</span></small> 
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- // modal-lancamento-de-estacas-isoladas -->
-
-
-
-
-
-
-
-
-
-<div id="modal-vinculos-elasticos-para-funcacoes" class="reveal-modal large modal-nivel-3">
-	    <h1>Vínculos elásticos para fundações</h1>
-	    <div class="caracteristica-resumida">
-	    	<p>No Eberick é possível definir a vinculação das fundações como apoio elástico, criando mais uma alternativa para a solução das fundações. </p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>		
-				<p>No Eberick é possível definir a vinculação das fundações como rotuladas, onde o nó é restringido ao deslocamento, mas livre à rotação, ou engastadas, onde o nó é restringido tanto ao deslocamento como à rotação. Além destas opções que estão presentes na base do programa, o Eberick dispõe de um módulo que permite definir o vínculo da fundação como elástico, onde podem ser definidas individualmente restrições a cada um dos graus de liberdade da fundação (deslocamento em X, Y e Z, rotação em X, Y e Z) e um coeficiente de mola para a definição do apoio elástico. O coeficiente de rigidez da mola no vínculo do tipo elástico da fundação deve ser calculado com base nos coeficientes de recalque vertical e horizontal do solo. </p>
-				<p>A vinculação adotada refere-se ao ponto de apoio da estrutura e interferem diretamente na modelo, podendo gerar estruturas mais ou menos estáveis, bem como mais ou menos econômicas. Com estas alternativas pode-se buscar qual vinculação é mais adequada para cada projeto. </p>
-           </div> <!-- //caracteristica-completa -->
-		
-		<small> *Recurso disponível a partir do <span>Eberick V5</span></small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- // modal-vinculos-elasticos-para-funcacoes -->
-
-
-
-
-
-
-
-
-<div id="modal-sapatas-corridas-em-apoio-elastico" class="reveal-modal large modal-nivel-3">
-	    <h1>Sapata corrida em apoio elástico</h1>
-	    <div class="caracteristica-resumida">
-	    	<p>Possibilita a criação de vigas apoiadas diretamente no solo, também chamadas “sapatas corridas” para apoio de paredes ou pilares</p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>		
-				<p>Com este módulo é possível lançar vigas apoiadas diretamente no solo, também chamadas de sapatas corridas, que podem servir de para apoio de paredes ou pilares.</p>
-				<p> O programa realiza o dimensionamento e detalhamento destas vigas de fundação e faz as verificações necessárias para a base apoiada no solo, de acordo com as configurações de recalque do solo.</p>
-				<p>Este tipo de fundação é bastante útil para alguns tipos de estruturas, como fundações para estruturas em alvenaria estrutural, entre outras.    </p>        
-		</div> <!-- //caracteristica-completa -->
-		
-		<small> *Recurso disponível a partir do <span>Eberick V8</span></small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- // modal-sapatas-corridas-em-apoio-elastico -->
-
-
-
-
-
-
-
-
-
-
-<div id="modal-blocos-com-mais-de-6-estacas" class="reveal-modal large modal-nivel-3">
-	    <h1>Blocos com mais de 6 estacas</h1>
-	    <div class="caracteristica-resumida">
-	    	<p>Possibilidade de utilizar blocos sobre estacas em diversos formatos, com estacas quadradas e circulares.</p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>		
-				<p> Com este módulo é possível utilizar blocos sobre estacas em diversos formatos, dando maior liberdade ao calculista na escolha do bloco mais adequado. Os blocos cadastrados têm formatos retangulares, triangulares, hexagonais e em diversos outros formatos, compreendendo os formatos mais usuais para blocos de até 10 estacas. Além disso, é possível cadastrar novos blocos retangulares com mais de 10 estacas. </p>
-				<p> Os blocos podem ser associados a estacas retangulares, circulares, perfil I, trilho e tubular, conforme a combinação de módulos utilizada, já que as estacas metálicas estão disponíveis num módulo específico. </p>
-				<p> O Eberick realiza todo o dimensionamento e detalhamento dos blocos, indicando as armaduras principais (inferior e superior), estribos horizontais e verticais quando necessário, indicando a ligação das estacas com os blocos quando há estacas tracionadas, gerando desenhos bastante completos e com elevado nível de acabamento. </p>
-  		</div> <!-- //caracteristica-completa -->
-		
-		<small> *Recurso disponível a partir do <span>Eberick V8</span> </small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- // modal-blocos-com-mais-de-6-estacas -->
-
-
-
-
-
-
-
-
-<div id="modal-tubuloes" class="reveal-modal large modal-nivel-3">
-	    <h1>Tubulões</h1>
-	    <div class="caracteristica-resumida">
-	    	<p> Dimensionamento de tubulões armados ou em concreto ciclópico, com ou sem bloco de coroamento e alargamento da base.</p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>		
-			<p> No Eberick também é possível dimensionar e detalhar fundações do tipo tubulão, dando mais uma opção para o calculista projetar as fundações dos seus projetos. </p>
-			<p> Os tubulões são modelados com molas em meio elástico e podem ser dimensionados em concreto armado, incluindo armadura ao longo do fuste ou em concreto ciclópico, com ou sem alargamento da base. Além destas opções pode-se optar por incluir ou não o bloco de coroamento junto ao tubulão. </p>
-			<p> Com este esta opção o usuário tem mais uma alternativa para as fundações do projeto, sendo que o programa gera todo o detalhamento do bloco de coroamento e tubulão, além de representar esta fundação na planta de locação, formas e pórtico 3D. </p>
-  		</div> <!-- //caracteristica-completa -->
-		
-		<small> *Recurso disponível a partir do <span>Eberick V5 Gold</span> </small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- // modal-tubuloes -->
-
-
-
-
-
-
-
-
-
-
-<div id="modal-radier" class="reveal-modal large modal-nivel-3">
-	    <h1>Radier</h1>
-	    <div class="caracteristica-resumida">
-	    	<p> Permite o lançamento de lajes de fundação apoiadas diretamente no solo para apoio de pilares, também chamada de fundação em radier.</p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>		
-				<p>	Estes elementos são apoiados diretamente no solo e são representados no programa como fundação sobre base elástica para apoio dos pilares. O programa irá considerar o radier na análise do pórtico e efetuar todo o dimensionamento desta laje de fundação. A partir dos resultados dos esforços o programa irá gerar o detalhamento completo do radier, incluindo as esperas dos pilares. </p>
-				<p>	Dependendo das características do solo, do porte da edificação, bem como das peculiaridades de cada localidade, este tipo de solução pode representar uma ótima alternativa para as fundações da edificação. </p>
-    		</div> <!-- //caracteristica-completa -->
-		
-		<small> *Recurso disponível a partir do <span>Eberick V8 Gold</span></small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- // modal-radier -->
-
-
-
-
-
-
-
-
-<div id="modal-biblioteca-de-detalhes-tipicos" class="reveal-modal large modal-nivel-3">
-	    <h1>Biblioteca de detalhes típicos</h1>
-	    <div class="caracteristica-resumida">
-	    	<p> Para facilitar a montagem dos elementos em obra é possível incluir automaticamente detalhes típicos junto ao detalhamento dos elementos.</p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>		
-				<p> Para facilitar a montagem dos elementos em obra é possível incluir automaticamente detalhes típicos junto aos detalhamentos dos elementos no Eberick. Os detalhes típicos podem ser associados ao detalhamento das lajes, indicando a montagem das armaduras negativas e de distribuição, indicando a montagem das armaduras de punção e de colapso progressivo.  </p>
-				<p> No caso das estruturas pré-moldadas, também é possível incluir detalhes típicos para representar a montagem das ligações semirrígidas com barra passante. Outra opção é incluir detalhes típicos na planta de locação e planta de cargas, indicando o sentido do carregamento, evitando erros na leitura das cargas das fundações. </p>
-     		</div> <!-- //caracteristica-completa -->
-		
-		<small> *Recurso disponível a partir do <span>Eberick V7</span></small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- // modal-biblioteca-de-detalhes-tipicos -->
-
-
-
-
-
-
-
-
-<div id="modal-vigas-e-pilares-inclinados" class="reveal-modal large modal-nivel-3">
-	    <h1>Vigas e pilares inclinados</h1>
-	    <div class="caracteristica-resumida">
-	    	<p> Possibilidade de criar vigas e pilares inclinados, que são calculados no pórtico espacial.</p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>		
-				<p> O Eberick permite o lançamento de elementos inclinados, entre eles vigas e pilares moldados in loco. </p>
-				<p> As vigas inclinadas são lançadas do pavimento superior para o pavimento inferior, podendo atravessar os níveis intermediários e, se for o caso, identificar os pilares intermediários como apoio. Estas vigas inclinadas também servem de apoio para escadas e rampas ou para lançamento de outros tipos de estruturas, como galpões, arquibancadas, coberturas, entre outros. </p>
-				<p> As vigas e pilares inclinados são calculados no modelo do pórtico espacial e representados no pórtico 3D juntamente com o restante da estrutura, facilitando a adequação ao projeto arquitetônico. </p>
-				<p> O detalhamento dos elementos inclinados será exibido incluindo o desenho em viga e um corte da seção, gerando um detalhamento bastante claro e completo. </p>
-      		</div> <!-- //caracteristica-completa -->
-		
-		<small> *Recurso disponível a partir do <span>Eberick V8</span></small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- // modal-vigas-e-pilares-inclinados -->
-
-
-
-
-
-
-
-
-
-<div id="modal-rampas" class="reveal-modal large modal-nivel-3">
-	    <h1>Rampas </h1>
-	    <div class="caracteristica-resumida">
-	    	<p> O Eberick com o módulo Rampas permite o lançamento de rampas maciças e pré-moldadas ligando pavimentos e/ou níveis intermediários.</p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>		
-				<p> O Eberick com o módulo Rampas permite o lançamento de rampas maciças e pré-moldadas ligando pavimentos e/ou níveis intermediários, atendendo às diversas situações de projetos com pavimentos e garagens em desnível. </p>
-				<p> O dimensionamento das rampas é feito através de uma grelha tridimensional ligada aos painéis de lajes, obedecendo a todos os critérios normativos. </p>
-				<p> As rampas também podem ser combinadas a outros módulos do Eberick, permitindo o lançamento de rampas nervuradas ou treliçadas, fornecendo ainda mais opções para a concepção do projeto. </p>
-				<p> O detalhamento das armaduras é feito em planta, indicando o comprimento correto das barras. Na planta de formas é exibido o sentido da rampa e, se for o caso, o posicionamento correto das vigotas e nervuras, facilitando a montagem na obra. </p>
-      		</div> <!-- //caracteristica-completa -->
-		
-		<small> *Recurso disponível a partir do <span>Eberick V5</span></small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- // modal-rampas -->
-
-
-
-
-
-
-
-
-
-<div id="modal-escadas-especiais" class="reveal-modal large modal-nivel-3">
-	    <h1>Escadas especiais </h1>
-	    <div class="caracteristica-resumida">
-	    	<p>Permite o lançamento de escadas plissadas, com fundo acompanhando o degrau, e escadas autoportantes, onde o patamar não tem apoio de pilares</p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>		
-			<p> Este módulo permite o lançamento e dimensionamento de “escada plissada”, na qual o fundo da escada acompanha a mesma geometria dos degraus, e escadas autoportantes, nas quais os lances e patamares intermediários não dispõem de apoios em vigas ou pilares. </p>
-			<p> Nas escadas plissadas, o programa trata o dimensionamento das armaduras do lance de escada, sendo que o usuário pode optar pelo detalhamento utilizando barras contínuas dobradas ou com estribos. </p>
-			<p> Para as escadas autoportantes o programa considera a rigidez axial dos elementos e faz o dimensionamento e detalhamento considerando os esforços decorrentes dos efeitos de flexo-tração e flexo-compressão. </p>
-			<p> Com estas opções o programa torna-se mais abrangente nas soluções para escadas. </p>
-        </div> <!-- //caracteristica-completa -->
-		
-		<small> *Recurso disponível a partir do <span>Eberick V8</span></small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- // modal-escadas-especiais -->
-
-
-
-
-
-
-
-
-
-
-<div id="modal-aberturas-em-vigas-e-lajes" class="reveal-modal large modal-nivel-3">
-	    <h1>Aberturas em vigas e lajes</h1>
-	    <div class="caracteristica-resumida">
-	    	<p> Lançamento, dimensionamento e detalhamento de aberturas em lajes e de furos ou aberturas retangulares e circulares para as vigas.</p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>		
-			<p> O Eberick permite o lançamento, dimensionamento e detalhamento de aberturas em lajes e vigas. </p>
-			<p> Para as vigas, o furo pode ser retangular ou circular, atendendo a projetos que exigem previsão para passagem de tubulações em vigas. O programa diferencia situações de furos de pequenas dimensões onde não é necessário alterar as armaduras existentes, das situações de aberturas com dimensões maiores onde se faz necessário diversas verificações adicionais, incluindo automaticamente o detalhamento de reforços de armadura na região da abertura. </p>
-			<p> Para as lajes, o programa permite o lançamento de aberturas em lajes maciças e nervuradas, atendendo as situações onde é necessário deixar uma passagem para a cobertura ou reservatório, por exemplo.  Neste caso o Eberick já trata tanto o dimensionamento da laje com essa abertura como o próprio detalhamento, interrompendo as armaduras da laje na região da abertura e inserindo as armaduras de reforço adicionais. </p>
-        </div> <!-- //caracteristica-completa -->
-		
-		<small> *Recurso disponível a partir do <span>Eberick V7 Gold</span></small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- // modal-aberturas-em-vigas-e-lajes -->
-
-
-
-
-
-
-
-
-
-
-
-
-<div id="modal-lajes-planas" class="reveal-modal large modal-nivel-3">
-	    <h1>Lajes planas</h1>
-	    <div class="caracteristica-resumida">
-	    	<p> Possibilidade de projetar lajes planas apoiadas diretamente sobre os pilares ou ainda contendo capitéis na região dos pilares.</p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>		
-				<p> Possibilidade de projetar lajes planas, maciças ou nervuradas, apoiadas diretamente sobre os pilares ou ainda contendo capitéis na região dos pilares. </p>
-				<p> Além das verificações à flexão e cisalhamento, é feita uma verificação da laje à punção, a partir dos perímetros críticos determinados segundo a geometria da laje, efetuando de forma completa todo o dimensionamento das lajes planas e lajes cogumelo. </p>
-				<p> Para as lajes planas, quando necessário serão incluídas armaduras de punção constituídas de studs metálicos, dispostas na região do entorno dos pilares. Estes conectores podem ser dispostos de forma perpendicular ou radial em relação ao pilar, conforme preferência do projetista, completando o detalhamento das lajes que estiverem apoiadas diretamente nos pilares. Além disso, o programa também dispõe de armadura de prevenção contra o colapso progressivo, conforme estabelecido na NBR 6118, item 19.5.4. </p>
-          </div> <!-- //caracteristica-completa -->
-		
-		<small> *Recurso disponível a partir do <span>Eberick V5 Gold</span></small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- // modal-lajes-planas -->
-
-
-
-
-
-
-
-
-
-
-
-<div id="modal-plastificacao-das-lajes" class="reveal-modal large modal-nivel-3">
-	    <h1>Plastificação das lajes</h1>
-	    <div class="caracteristica-resumida">
-	    	<p> Possibilidade de considerar a plastificação dos apoios das lajes, diminuindo momento fletor nas continuidades e eventuais picos de esforços.</p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>		
-				<p> Os esforços das lajes também podem ser obtidos considerando uma redistribuição dos esforços no painel, gerando uma análise não-linear da grelha. No Eberick, pode-se definir a utilização deste modelo através da plastificação dos apoios onde são incluídas rótulas plásticas na grelha. </p>
-				<p> Neste caso, é possível diminuir os momentos fletores negativos da continuidade ou minimizar “picos” de esforços em regiões de reentrância da laje como os que ocorrem em “cantos vivos”, que dentro de determinados limites de redistribuição, podem gerar economia de armadura mantendo a segurança da estrutura. </p>
-            </div> <!-- //caracteristica-completa -->
-		
-		<small> *Recurso disponível a partir do <span>Eberick V8 Gold</span></small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- // modal-plastificacao-das-lajes -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div id="modal-elementos-pre-moldados" class="reveal-modal large modal-nivel-3">
-	    <h1>Elementos pré-moldados</h1>
-	    <div class="caracteristica-resumida">
-	    	<p> Possibilidade de lançar pilares e vigas pré-moldadas, incluindo consolos, aparelhos de apoio e pinos de ancoragem de forma automatizada e ágil.</p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>		
-				<p> Possibilidade de lançar pilares e vigas pré-moldadas, incluindo consolos, aparelhos de apoio e pinos de ancoragem de forma automatizada e ágil.</p>
-				<p> Os consolos podem ser do tipo retangular ou trapezoidal e estarem presentes em pilares e vigas além da opção de consolo contínuo para apoiar as lajes.</p>
-				<p> Este módulo ainda permite a utilização de:</p>
-					<ul>
-						<li> Vigas pré-moldadas com e sem dente gerber </li>
-						<li> Vigas mistas, considerando 2º estágio de concretagem  </li>
-						<li> Lançamento de lajes alveolares  </li>
-						<li> Dimensionamento e detalhamento dos cálices das fundações. </li>
-						<li> Ligações semirrígidas para as estruturas pré-moldadas </li>
-						<li> Ligação de vigas convencionais em pilares pré-moldados </li>
-					</ul>
-				<p> A análise e o dimensionamento da estrutura consideram ainda as etapas de construção, gerando um detalhamento completo dos elementos pré-moldados, incluindo as alças de içamento para pilares e vigas. Para as vigas pré-moldadas ainda há a opção de representar a vista superior e separar forma e armadura, gerando um detalhamento final bastante completo e claro.</p>
-
-          </div> <!-- //caracteristica-completa -->
-		
-		<small>*Recurso disponível a partir do <span>Eberick V7</span></small> 
-
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- // modal-elementos-pre-moldados -->
-
-
-
-
-
-<div id="modal-sobre-o-eberick" class="reveal-modal large modal-nivel-1">
-	    <h1>Nova estrutura do Eberick V9</h1>
-	    <div class="caracteristica-resumida">
-	    	<p> Possibilidade de considerar a plastificação dos apoios das lajes, diminuindo momento fletor nas continuidades e eventuais picos de esforços.</p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>		
-			<p> O <a href="http://www.altoqi.com.br/software/projeto-estrutural/eberick-v9" target="_blank">Eberick V9</a> agrupa todos os recursos disponíveis na plataforma das versões anteriores, criando uma plataforma única com todos os recursos de base do programa. </p>
-			<p> Os módulos disponíveis nas versões anteriores também foram reestruturados e parte dos recursos foi incorporada a plataforma, resultando num conceito mais moderno e prático. </p>
-			<p> Os módulos das versões anteriores também foram particionados e adequados às novas realidades de projeto, trazendo ainda mais flexibilidade na escolha da composição ideal de módulos para o seu produto. </p>
-            </div> <!-- //caracteristica-completa -->
-		
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- // modal-elementos-pre-moldados -->
-
-
-
-
-
-
-<!-- 'MODALS LEVEL 2 
-============================================================ -->
-
-<div id="modal-planta-de-formas" class="reveal-modal large modal-nivel-2">
-	    <h1>Planta de formas</h1>
-	    <div class="caracteristica-resumida"> 
-	     	<p> O Eberick gera da planta de formas de acordo com a geometria da estrutura, permitindo ainda incluir informações de forma automática.</p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>		
-				<p> O Eberick gera da planta de formas de acordo com a geometria da estrutura, permitindo ainda incluir diversas informações de forma automática: </p>
-					<ul>	
-						<li> Desenho das cargas, fundações e eixos de locação  </li>
-						<li> Hachuras para representar a continuidade dos pilares  </li>
-						<li> Hachuras para destacar os desníveis das lajes </li>
-						<li> Desenho das vigotas ou nervuras na forma, incluindo detalhes das lajes com nervuras </li>
-						<li> Tabelas opcionais com dimensões e cargas na forma  </li>
-						<li> Opção para adicionar cortes indicando desníveis na forma </li>
-					</ul>
-				<p> Além destas opções a planta de forma permite definir padrões de personalização para acabamento do desenho e conta com um algoritmo para otimização da sobreposição de textos na planta de forma, proporcionando significativa produtividade e qualidade no acabamento dos desenhos.  </p>
-          </div> <!-- //caracteristica-completa -->
-		
-		<small>*Recurso disponível a partir do <span>Eberick V8</span></small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- // modal-planta-de-formas -->
-
-
-
-
-
-<div id="modal-planta-de-locacao-de-cargas" class="reveal-modal large modal-nivel-2">
-	    <h1>Planta de locação e cargas</h1>
-	    <div class="caracteristica-resumida"> 
-	     	<p> Geração de planta de locação e de cargas das fundações, incluindo cotas, eixos acumulados e informações de dimensionamento das fundações.</p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>		
-				<p> O Eberick permite gerar a planta de locação dos pilares e fundações, incluindo automaticamente as cotas e eixos acumulados, além de permitir a edição e criação de novos eixos diretamente no croqui de lançamento. </p>
-				<p> Complementando as informações, o programa também permite exibir a arquitetura na planta de locação, incluir os detalhes dos blocos de fundação e uma tabela personalizada com os dados de projeto para execução da fundação. Como os dados exibidos na planta e na tabela são configuráveis, o projetista pode adequar o desenho final às suas preferências.</p>
-				<p> Além de gerar a planta de locação da estrutura, no Eberick também é possível gerar plantas de cargas, contendo apenas os pilares, para desenvolvimento do projeto de fundações. Para a planta de cargas, ainda é possível configurar os dados a serem exibidos nas tabelas e na própria planta de cargas, incluindo informações para dimensionamento das fundações, como esforços e seções dos pilares, facilitando a verificação do projeto de fundações.</p>
-           </div> <!-- //caracteristica-completa -->
-		
-		<small>*Recurso disponível a partir do <span>Eberick V7</span></small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- // modal-planta-de-locacao-de-cargas -->
-
-
-
-<div id="modal-escadas-convencionais" class="reveal-modal large modal-nivel-2">
-	    <h1>Escadas convencionais</h1>
-	    <div class="caracteristica-resumida"> 
-	     	<p>Lançamento e dimensionamento de escadas convencionais analisadas de forma tridimensional e detalhamento completo das armaduras.</p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>		
-				<p>Os lances de escadas são lançados na estrutura de forma otimizada, onde são definidos pontos de referência, que podem ser linhas da arquitetura ou vigas e barras já lançadas. Os patamares também podem ser definidos em qualquer nível da estrutura, permitindo modelar a maior parte dos tipos de escadas que sejam compostas de lances e patamares retos.  Com o Eberick pode-se modelar facilmente escadas em formato U, formato L, de lances únicos ou com o número de patamares que for desejado.  </p>
-				<p>As escadas são analisadas de forma tridimensional e consideradas no pórtico espacial da estrutura, além de serem representadas também no pórtico 3D.  </p>
-				<p>Os elementos inclinados serão dimensionados a flexão composta, gerando um detalhamento completo das armaduras das escadas. As escadas também serão representadas na forma e detalhamento da viga, facilitando o entendimento e a montagem em obra. </p>
-           </div> <!-- //caracteristica-completa -->
-		
-		<small>*Recurso disponível a partir do <span>Eberick V8</span></small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- // modal-escadas-convencionais -->
-
-
-
-
-
-<div id="modal-dimensionamento-refinado-das-lajes" class="reveal-modal large modal-nivel-2">
-	    <h1>Dimensionamento refinado das lajes</h1>
-	    <div class="caracteristica-resumida"> 
-	     	<p>Dimensionamento das lajes por regiões de esforços e com momentos Wood&Armer, permitindo uma análise mais refinada das lajes.</p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>		
-				<p>No Eberick estão disponíveis duas formas de cálculo para as lajes, uma delas dimensionando a laje pelos esforços máximos, considerando sempre uma mesma armadura ao longo de toda a laje, e outra considerando regiões de esforços, sendo que o programa passa a considerar regiões diferenciadas de armadura, reforçando a laje onde necessário. Com isso, em muitos casos é possível obter economia de armadura, reduzindo o custo da estrutura. </p>
-				<p>No dimensionamento das lajes, o Eberick também considera a atuação combinada dos momentos fletores e torsores (momentos Wood&Armer), cuja abordagem permite, por exemplo, detalhar a laje contemplando os esforços volventes em cantos de lajes, permitindo uma análise mais refinada das lajes do projeto. Em lajes com formatos irregulares, o efeito pode ser ainda mais pronunciado e a consideração dos momentos Wood&Armer ainda mais importante. </p>
-        </div> <!-- //caracteristica-completa -->
-		
-		<small>*Recurso disponível a partir do <span>Eberick V5 Gold</span></small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- // modal-dimensionamento-refinado-das-lages -->
-
-
-
-
-<div id="modal-armaduras-complementares-de-lajes" class="reveal-modal large modal-nivel-2">
-	    <h1>Armaduras complementares de lajes</h1>
-	    <div class="caracteristica-resumida"> 
-	     	<p> Armaduras complementares para o detalhamento das lajes e possibilidade de definir uma malha base para todo um painel de laje.</p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>		
-				<p> No Eberick está disponível uma série de armaduras complementares para o detalhamento das lajes, como as armaduras de distribuição e contra fissuração nos bordos. Assim, o projetista pode optar por incluir automaticamente as armaduras de distribuição para as armaduras superiores das lajes e também incluir uma armadura nos bordos sempre que as lajes tiverem bordos livres, enriquecendo os desenhos finais e minimizando a necessidade de interferência do projetista. </p>
-				<p> Além disso, o Eberick permite gerar o detalhamento das lajes usando uma armadura fixa em toda a laje (malha base), com regiões adicionais de armadura positiva onde necessário. Nesse caso o calculista pode optar por adotar uma armadura com mesma bitola e espaçamento para diversas lajes do projeto, padronizando o detalhamento dos painéis de lajes, facilitando a montagem em obra e gerando projetos mais econômicos. </p>
-        </div> <!-- //caracteristica-completa -->
-		
-		<small>*Recurso disponível a partir do <span>Eberick V5 Gold</span></small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- // modal-armaduras-complementares-de-lajes -->
-
-
-
-
-
-<div id="modal-esforcos-horizontais" class="reveal-modal large modal-nivel-2">
-	    <h1>Esforços horizontais </h1>
-	    <div class="caracteristica-resumida"> 
-	     	<p> Ferramentas para análise da estabilidade global e consideração dos esforços horizontais, trazendo mais agilidade e segurança para o projeto.</p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>		
-			<p> Diversas ferramentas para análise da estabilidade global e consideração dos esforços horizontais na estrutura: </p>
-				<ul>	
-					<li> Verificação da estabilidade global da estrutura através do processo Gama-Z </li>
-					<li> Processo P-Delta para a consideração dos efeitos de 2ª ordem </li>
-					<li> Esforços de vento em edifícios conforme NBR 6123 </li>
-					<li> Consideração automática das ações de desaprumo </li>
-					<li> Visualização dos esforços e deslocamentos no pórtico unifilar </li>
-					<li> Relatórios que permitem uma avaliação de todos os resultados apresentados </li>
-				</ul>
-			<p> Além dos recursos citados acima o Eberick também possui ferramentas para cálculo automático do coeficiente de arrasto do vento e para a geração automática das combinações últimas e de serviço, trazendo mais agilidade e segurança na definição destes parâmetros.  </p>
-			<p> O Eberick ainda permite criar novos casos de carregamento, editar os coeficientes de ponderação das ações e selecionar individualmente os pilares submetidos à ação do vento. </p>
-        </div> <!-- //caracteristica-completa -->
-		
-		<small>*Recurso disponível a partir do <span>Eberick V8</span></small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- // modal-esforcos-horizontais -->
-
-
-
-
-
-
-
-
-<div id="modal-flechas-imediatas-e-diferidas" class="reveal-modal large modal-nivel-2">
-	    <h1>Flechas imediatas e diferidas </h1>
-	    <div class="caracteristica-resumida"> 
-	     	<p>Verificação das flechas imediatas e diferidas para vigas e lajes, destacando os pontos com flechas excessivas aos limites recomendados.</p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>		
-				<p> O Eberick apresenta os deslocamentos das vigas e lajes através do diagrama flechas do pavimento, destacando os pontos que tiveram flechas excessivas aos limites recomendados. </p>
-				<p> Conforme recomendação da NBR6118, o procedimento de cálculo dos deslocamentos de vigas e lajes deve considerar a redução na rigidez das peças em função da fissuração e o efeito de longa duração devido à fluência do concreto. Atendendo a estas recomendações, o Eberick fornece as flechas elásticas instantâneas, imediatas e diferidas no tempo para cada combinação. </p>
-				<p> Os esforços nas lajes são obtidos considerando o modelo fissurado e levando em consideração a flexibilidade dos apoios, atendendo a todas as prescrições normativas. </p>
-				<p> Para as vigas ainda é possível acrescentar uma armadura adicional para combater a flecha, conferindo mais uma alternativa para solucionar os casos em que a flecha está maior que o limite recomendado. </p>
-        </div> <!-- //caracteristica-completa -->
-		
-		<small>*Recurso disponível a partir do <span>Eberick V9</span></small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- // modal-flechas-imediatas-e-diferidas -->
-
-
-
-
-
-
-<div id="modal-cad-basico" class="reveal-modal large modal-nivel-2">
-	    <h1>CAD básico</h1>
-	    <div class="caracteristica-resumida"> 
-	     	<p>O Eberick dispõe de uma base de CAD própria contendo recursos básicos de CAD e recursos específicos que facilitam o dia a dia de projeto.</p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>		
-				<p> O Eberick dispõe de uma base de CAD própria contendo tanto com recursos básicos de CAD como ferramentas de captura, palheta de 256 cores e criação de cotas e linhas de cota verticais e alinhadas como recursos específicos que facilitam o dia a dia de projeto: </p> 
-					<ul>	
-						<li> Importação e exportação de arquivos dwg/dxf, incluindo uma opção para conversão automática de escala e opção para eliminar hachuras na importação da arquitetura </li>
-						<li> Filtros de desenho para exibir somente estrutura ou arquitetura </li>
-						<li> Navegação direta entre croquis dos pavimentos </li>
-						<li> Arquitetura como referência externa ao croqui </li>
-						<li> Opção de localizar e renumerar elementos </li>
-						<li> Opção de copiar croqui, tornando o lançamento da edificação mais rápido e fácil </li>
-					</ul>
-				<p>Além dos recursos citados, área de trabalho do Eberick V9 é totalmente personalizável, tanto na exibição das ferramentas como na própria exibição e aparência dos elementos no croqui. Com estas e outras ferramentas o Eberick se torna um ambiente intuitivo e amigável para elaboração dos projetos. </p>
-        </div> <!-- //caracteristica-completa -->
-		
-		<small>*Recurso disponível a partir do <span>Eberick V8</span></small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- // modal-cad-basico -->
-
-
-
-
-<div id="modal-ferramentas-de-lancamento-para-o-projeto" class="reveal-modal xlarge modal-nivel-2">
-	    <h1>Ferramentas de lançamento para o projeto</h1>
-	    <div class="caracteristica-resumida"> 
-	     	<p> Para contemplar as diversas situações e facilitar a elaboração do projeto o Eberick dispõe de ferramentas específicas de lançamento.</p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>		
-				<p> Na definição da estrutura existem diversas situações que devem ser considerados, como os casos de carregamento, transições de pilares, ligações entre elementos e pontos específicos da arquitetura que precisam ser contemplados na elaboração do projeto. Para contemplar tais situações e facilitar a elaboração do projeto o Eberick dispõe de ferramentas específicas de lançamento:</p>
-					<ul>	
-						<li> Diversos comandos para lançar cargas concentradas e lineares em vigas e pilares e cargas distribuídas, lineares e concentradas em lajes. </li>
-						<li> Possibilidade de lançar pilar parcialmente apoiado em viga  </li>
-						<li> Verificação de elementos com elevação inválida, evitando erros de lançamento. </li>
-						<li> Opção de definir ligações engastadas, rotuladas e semirrígidas, incluindo um controle individual das ligações semirrígidas </li>
-						<li> Possibilidade de engastar lajes nas vigas ou em outras lajes </li>
-						<li> Indicação de vazios no croqui, evitando lançamento incorreto de lajes em espaços abertos. </li>
-						<li> Possibilidade de definir a área de vaga de garagem para evitar pilares invadindo o espaço da garagem. </li>
-					</ul>
-        </div> <!-- //caracteristica-completa -->
-		
-		<small>*Recurso disponível a partir do <span>Eberick V9</span></small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- // modal-ferramentas-de-lancamento-para-o-projeto -->
-
-
-
-
-<div id="modal-pilares-com-secao-retangular-circular-e-l" class="reveal-modal xlarge modal-nivel-2">
-	    <h1>Pilares com seção retangular, circular e L</h1>
-	    <div class="caracteristica-resumida"> 
-	     	<p>Os pilares podem ter diversos tipos de seções transversais, permitindo o lançamento de acordo com a arquitetura.</p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>		
-				<p> No Eberick os pilares de concreto moldado in loco podem ter seções: </p>
-					<ul>
-						<li> Retangulares </li>
-						<li> Circulares  </li>
-						<li> Tipo L </li>
-					</ul>	
-				<p> Outros módulos do programa dispõem de ainda mais opções de seções transversais.  </p>
-				<p> O lançamento e posicionamento das seções transversais dos pilares são feitos facilmente com base no projeto arquitetônico, definindo as dimensões do elemento e um vértice fixo, facilitando a manipulação dos elementos após o lançamento. </p>
-				<p> Os pilares serão dimensionados conforme as normas vigentes e pelo processo da linha neutra, onde são traçados diagramas de interação entre os momentos resistentes e solicitantes de cálculo para cada combinação, tornando o dimensionamento mais seguro. </p>
-				<p> Além da opção de detalhar um único lance dos pilares moldados in loco, no Eberick também é possível gerar um detalhamento completo dos pilares com todos os lances do elemento no projeto, incluindo para cada pavimento as armaduras longitudinais, transversais, estribos complementares e as esperas para o lance superior, gerando um detalhamento bastante completo e com elevada qualidade. </p>
-        </div> <!-- //caracteristica-completa -->
-		
-		<small>*Recurso disponível a partir do <span>Eberick V5 Gold</span></small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- // modal-pilares-com-secao-retangular-circular-e-l -->
-
-
-
-
-
-<div id="modal-vigas-com-secao-retangular" class="reveal-modal xlarge modal-nivel-2">
-	    <h1>Vigas com seção retangular</h1>
-	    <div class="caracteristica-resumida"> 
-	     	<p>Lançamento, dimensionamento pelo ELU e detalhamento de vigas retangulares com elevado nível de acabamento.</p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>		
-				<p> As vigas retangulares são lançadas selecionando a primeira e última conectividade, sendo que o programa detecta automaticamente apoios intermediários, tratando automaticamente as ligações entre eles, através da criação de trechos rígidos. Outros módulos do programa dispõem de ainda mais opções de tipos de vigas. </p>
-				<p> O dimensionamento das vigas é feito pelo ELU de acordo com as normas atuais e permite-se exibir cada um dos diagramas de esforços solicitantes, dos quais são obtidos os resultados das armaduras. </p>
-				<p> O detalhamento das vigas contém as armaduras apresentadas em corte e em vistas, exibindo todas as armaduras longitudinais positivas e negativas, transversais, armaduras de pele e construtivas quando for o caso. </p>
-				<p> É possível gerar detalhamentos individualmente ou de todas as vigas em pranchas, além da possibilidade de editar os detalhamentos, sendo que a relação de aço se mantém atualizada. </p>
-				<p> O detalhamento das vigas é gerado de forma bastante completa e com elevado nível de acabamento.  </p>
-        </div> <!-- //caracteristica-completa -->
-		
-		<small>*Recurso disponível a partir do <span>Eberick V5 Gold</span></small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- // modal-vigas-com-secao-retangular -->
-
-
-
-
-
-
-
-<div id="modal-lajes-macicas" class="reveal-modal large modal-nivel-2">
-	    <h1>Lajes maciças</h1>
-	    <div class="caracteristica-resumida"> 
-	     	<p>Lançamento, dimensionamento pelo ELU e detalhamento completo de lajes maciças com elevada qualidade do desenho final.</p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>		
-				<p> O lançamento das lajes maciças é realizado através da definição da espessura da laje e simplesmente clicando no interior de um contorno de vigas. Outros módulos do programa dispõem de ainda outros tipos de lajes.  </p>
-				<p> As lajes podem ser consideradas apoiadas nas vigas do contorno, engastadas na laje adjacente ou ainda ter seus lados definidos como bordo livre, atendendo a maior parte das necessidades do projeto. </p>
-				<p> O dimensionamento será feito para os diversos formatos das lajes, isoladas ou contínuas e considerando a rigidez real das vigas através de um modelo de grelha 3D, onde é possível verificar os esforços e deslocamentos em cada laje, facilitando a compreensão dos resultados. </p>
-				<p> Na janela de dimensionamento também é possível verificar todos os carregamentos aplicados na laje, além dos momentos fletores e resultados das armaduras, sendo que o programa gera um detalhamento completo para as armaduras. </p>
-        </div> <!-- //caracteristica-completa -->
-		
-		<small>*Recurso disponível a partir do <span>Eberick V5</span></small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- // modal-lajes-macicas -->
-
-
-
-
-<div id="modal-lajes-pre-moldadas-convencionais" class="reveal-modal large modal-nivel-2">
-	    <h1>Lajes pré-moldadas convencionais</h1>
-	    <div class="caracteristica-resumida"> 
-	     	<p>Lançamento, dimensionamento e detalhamento de lajes pré-moldadas, incluindo os comprimentos das vigotas e as armaduras.</p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>		
-				<p> Lançamento de lajes pré-moldadas, permitindo definir a largura das vigotas e os blocos de enchimento a serem utilizados, considerando o bloco inteiro ou meio bloco conforme a necessidade. </p>
-				<p> A análise e dimensionamento das lajes pré-moldadas são feitos considerando a posição de cada vigota na montagem da grelha 3D e o detalhamento das vigotas é gerado de forma completa, incluindo os comprimentos das vigotas e armações, as armaduras adicionais e uma relação de aço contendo a lista de todas as armações do pavimento. Assim o calculista possui todas as informações para fabricação das peças ou para a conferência dos resultados nos casos em que as lajes são calculadas pelos fabricantes. </p>
-				<p> No detalhamento das lajes pré-moldadas também é indicada a disposição das vigotas no pavimento corrente, com objetivo de definir a posição de cada elemento para montagem da laje, gerando as informações necessárias para a montagem da laje em obra de forma clara e organizada. </p>
-        </div> <!-- //caracteristica-completa -->
-		
-		<small>*Recurso disponível a partir do <span>Eberick V8</span></small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- // modal-lajes-pre-moldadas-convencionais -->
-
-
-
-
-<div id="modal-cortes-na-estrutura" class="reveal-modal large modal-nivel-2">
-	    <h1>Cortes na estrutura</h1>
-	    <div class="caracteristica-resumida"> 
-	     	<p> Criação de cortes sobre a estrutura, em qualquer posição e direção definida pelo usuário, gerando o desenho com elevado nível de acabamento.</p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>		
-				<p> O Eberick permite a geração de cortes sobre a estrutura, em qualquer posição e direção definida pelo usuário, exibindo os elementos em corte e em vista, destacando as cotas, níveis acumulados, indicação dos pavimentos e das fundações.  </p>
-				<p> A geração dos cortes ainda permite: </p>
-					<ul>
-						<li> Escolher sobre quais pavimentos o corte deve ser gerado </li>
-						<li> Representar as nervuras das lajes detalhadamente </li>
-						<li> Criar uma linha de corte com desvio em planta  </li>
-						<li> Geração de corte esquemático da estrutura </li>
-					</ul>
-				<p> Assim pode-se incluir cortes da estrutura aos desenhos do projeto mostrando situações específicas, como transições e elementos inclinados, desníveis e demais detalhes geométricos, aumentando a qualidade da apresentação final do projeto. </p>
-				<p> O desenho do corte também possui um algoritmo para otimização dos textos, gerando o desenho final com elevado nível de acabamento. </p>
-        </div> <!-- //caracteristica-completa -->
-		
-		<small>*Recurso disponível a partir do <span>Eberick V8</span></small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- // modal-cortes-na-estrutura -->
-
-
-
-
-
-<div id="modal-configuracoes-para-o-projeto" class="reveal-modal large modal-nivel-2">
-	    <h1>Configurações para o projeto</h1>
-	    <div class="caracteristica-resumida"> 
-	     	<p> Diversas configurações para facilitar o dia a dia de projeto, adequando os resultados apresentados pelo programa às preferências do usuário.</p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>		
-				<p> O Eberick dispõe de diversas configurações para facilitar o dia a dia de projeto, adequando os resultados apresentados pelo programa às preferências de cada usuário. Dentre as principais configurações relacionadas à usabilidade do programa, pode-se citar: </p>
-				<ul>
-					<li> Padronização dos níveis de desenhos </li>
-					<li> Diversas opções de apresentação das pranchas do projeto e definição das folhas padrão. </li>
-					<li> Possibilidade de gerar relatórios, </li>
-					<li> Cadastro de novos blocos de enchimento para lajes </li>
-					<li> Personalização do sistema de unidade de medidas </li>
-					<li> Salvamento automático e atalhos para os projetos em uso </li>
-				</ul>
-				<p> Além destas opções de personalização dos desenhos e da forma de trabalho, o Eberick permite configurar as propriedades dos materiais para cada elemento e pavimento e possui de diversas configurações de dimensionamento e detalhamento dos elementos para que o usuário busque a solução mais adequada para o seu projeto. </p>
-        </div> <!-- //caracteristica-completa -->
-		
-		<small>*Recurso disponível a partir do <span>Eberick V7</span></small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- // modal-configuracoes-para-o-projeto -->
-
-
-
-
-<div id="modal-analise-dos-esforcos-e-deslocamentos" class="reveal-modal large modal-nivel-2">
-	    <h1>Análise dos esforços e deslocamentos </h1>
-	    <div class="caracteristica-resumida"> 
-	     	<p>Modelo de pórtico espacial e grelha 3D para análise dos esforços e deslocamentos utilizados no dimensionamento dos elementos estruturais.</p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>		
-				<p> O Eberick utiliza o modelo de pórtico espacial e grelha 3D para análise dos esforços e deslocamentos utilizados no dimensionamento dos elementos estruturais.</p>
-				<p> O modelo de pórtico espacial é composto pelas vigas e pilares da edificação, onde são criados trechos rígidos na ligação das vigas com pilares. Os esforços e deslocamentos podem ser visualizados em um pórtico tridimensional unifilar, para cada uma das combinações de ações, o que facilita a interpretação dos resultados do programa.</p>
-				<p> Para análise das lajes o programa utiliza um modelo de grelha 3D formada pelo painel de vigas e lajes. O comportamento de grelha é mais preciso do que os modelos simplificados, pois permite uma melhor interação entre as deformações dos apoios das lajes em função da rigidez das vigas, o que proporciona uma melhor distribuição dos esforços. </p>
-				<p> O Eberick conta ainda com um solver para maior velocidade de processamento, tornando o processo de cálculo dos esforços uma etapa rápida e totalmente automatizada.</p>
-        </div> <!-- //caracteristica-completa -->
-		
-		<small>*Recurso disponível a partir do <span>Eberick V6</span> </small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- // modal-analise-dos-esforcos-e-deslocamentos -->
-
-
-
-
-
-<div id="modal-dimensionamento-dos-elementos" class="reveal-modal large modal-nivel-2">
-	    <h1>Dimensionamento dos elementos</h1>
-	    <div class="caracteristica-resumida"> 
-	     	<p> Dimensionamento dos elementos pelo ELU de acordo com as normas atuais e os resultados apresentados em janelas de dimensionamento exclusivas.</p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>		
-				<p> O Eberick dimensiona os elementos pelo ELU de acordo com as normas atuais, contemplando inclusive o dimensionamento e detalhamento de armaduras de suspensão para vigas e a verificação das vigas curtas em balanços como viga-parede. </p>
-				<p> Os resultados de dimensionamento são apresentados em janelas de dimensionamento exclusivas que apresentam os esforços e os resultados de armadura, entre outras informações importantes. Na janela de dimensionamento das vigas também é apresentado um diagrama com a sobreposição dos momentos fletores ao detalhamento das vigas, facilitando o entendimento do resultado e a manipulação das armaduras. Os diagramas de esforços das vigas também serão apresentados no memorial de cálculo. </p>
-				<p> Os elementos com erro de dimensionamento são destacados na janela de dimensionamento e para cada erro é apresentada série de informações que auxiliam na solução dos problemas, oferecendo diversas alternativas e permitindo com isso escolher qual a melhor solução para cada projeto. </p>
-           </div> <!-- //caracteristica-completa -->
-		
-		<small>*Recurso disponível a partir do <span>Eberick V8</span></small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- // modal-dimensionamento-dos-elementos -->
-
-
-
-
-
-<div id="modal-resumo-dos-materiais" class="reveal-modal large modal-nivel-2">
-	    <h1>Resumo de materiais </h1>
-	    <div class="caracteristica-resumida"> 
-	     	<p>No Eberick é possível gerar um relatório dos materiais de toda a edificação, incluindo volume de concreto, peso de aço, entre outros.</p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>		
-			<p> Além dos relatórios de cálculo e de estabilidade da estrutura, no Eberick é possível gerar um relatório com o resumo dos materiais da edificação. </p>
-			<p> Neste relatório é listado o volume de concreto, peso de aço, área de forma, quantitativo de blocos de enchimento e consumo de aço para cada um dos pavimentos da estrutura. Permite-se gerar o relatório apenas dos elementos desejados, incluindo apenas os pavimentos de interesse ou ainda de todos os elementos e de todos os pavimentos do projeto. </p>
-        </div> <!-- //caracteristica-completa -->
-		
-		<small>*Recurso disponível a partir do <span>Eberick V5</span></small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- // modal-resumo-dos-materiais -->
-
-
-
-
-
-
-<div id="modal-portico-3d" class="reveal-modal large modal-nivel-2">
-	    <h1>Pórtico 3D</h1>
-	    <div class="caracteristica-resumida"> 
-	     	<p>Visualização do modelo criado no pórtico 3D, com opção de visualizar a estrutura inteira ou destacar regiões específicas. </p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>		
-				<p> O modelo criado em cada pavimento pode ser visualizado no pórtico 3D, que permite visualizar a estrutura inteira ou destacar regiões para facilitar o entendimento da geometria proposta.  </p>
-				<p> Além da opção de destacar elementos no pórtico 3D, no Eberick também é possível utilizar ferramentas de auxiliam na visualização da estrutura: </p>
-					<ul>
-						<li> Seleção de cores, elementos e pavimentos visíveis no pórtico 3D </li>
-						<li> Opção de definir cores RGB genéricas e opções de transparência para cada tipo de elemento </li>
-						<li> Definição de uma visão 3D em qualquer ponto da estrutura </li>
-						<li> Visualização das vistas e planos de corte  </li>
-						<li> Representação das nervuras das lajes no Pórtico 3D </li>
-						<li> Representação do nível do solo no pórtico 3D </li>
-					</ul>	
-				<p> A visualização do pórtico 3D pode ser configurada de acordo com a placa de vídeo, agregando mais qualidade a visualização do pórtico 3D.</p>
-        </div> <!-- //caracteristica-completa -->
-		
-		<small>*Recurso disponível a partir do <span>Eberick V9</span></small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- // modal-portico-3d -->
-
-
-
-
-
-
-<div id="modal-detalhamento-dos-elementos" class="reveal-modal xlarge modal-nivel-2">
-	    <h1>Detalhamento dos elementos </h1>
-	    <div class="caracteristica-resumida"> 
-	     	<p> Detalhamento completo dos elementos estruturais e diversas opções para adequar os desenhos gerados às preferências de cada usuário. </p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>		
-				<p> O Eberick gera o detalhamento completo dos elementos estruturais e disponibiliza uma série de opções para adequar os desenhos gerados às preferências de cada usuário, permitindo escolher armaduras além das sugeridas pelo programa e opções para gerar os detalhamentos individuais, em pranchas ou para impressão em caderno de detalhamento.  </p>
-				<p> Cada elemento conta ainda com diversas configurações que permitem refinar os detalhamentos, gerando os desenhos com elevada qualidade. </p>
-				<p> Para as vigas: </p>
-					<ul>
-						<li> Opção de estribos simples e múltiplos para as vigas</li>
-						<li> Opções de representação dos estribos e armaduras de pele nas vigas </li>
-						<li> Opções de otimização do detalhamento das armaduras nas vigas</li>
-						<li> Padronização da ancoragem das barras na viga</li>
-					</ul>	
-				<p> Para os pilares:  </p>
-					<ul>
-						<li> Detalhamento completo dos pilares por lance ou prumada, indicando a continuidade das barras</li>
-						<li> Comandos para otimização das prumadas dos pilares</li>
-					</ul>	
-				<p> Para as lajes: </p>
-					<ul>
-						<li> Diversas opções para refinar o detalhamento das lajes</li>
-						<li> Otimização da sobreposição de texto no detalhe das lajes</li>
-					</ul>
-        </div> <!-- //caracteristica-completa -->
-		
-		<small>*Recurso disponível a partir do <span>Eberick V9</span></small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- // modal-detalhamento-dos-elementos -->
-
-
-
-
-<div id="modal-sapatas-isoladas-e-de-divisa" class="reveal-modal large modal-nivel-2">
-	    <h1>Sapatas isoladas e de divisa </h1>
-	    <div class="caracteristica-resumida"> 
-	     	<p>Possibilidade de lançar, dimensionar e detalhar sapatas centradas e de divisa conforme os esforços do pórtico e as características do solo. </p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>		
-				<p>	No Eberick é possível lançar e dimensionar sapatas centradas levando em consideração os esforços oriundos do pórtico e as características configuradas para o solo.</p>
-				<p>	Além das sapatas centradas, também é possível definir sapatas de divisa para pilares moldados in loco, atendendo aos casos em que o projeto não permite a utilização de fundações centradas. Outra opção para auxiliar na definição do projeto de fundações é a possibilidade de fixar a seção de um dos lados da sapata, sendo que o programa recalcula o elemento para atender as solicitações da estrutura, auxiliando nos casos de sobreposições entre fundações próximas.</p>
-				<p>	Tanto para as sapatas centradas como para as sapatas de divisa o programa gera um detalhamento completo com as armaduras em planta e em corte, pilares de arranque e as propriedades do solo para cada sapata, conforme as definições do usuário. </p>
-        </div> <!-- //caracteristica-completa -->
-		
-		<small>*Recurso disponível a partir do <span>Eberick V8</span></small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- // modal-sapatas-isoladas-e-de-divisa -->
-
-
-
-<div id="modal-blocos-com-ate-6-estacas" class="reveal-modal large modal-nivel-2">
-	    <h1>Blocos com até 6 estacas </h1>
-	    <div class="caracteristica-resumida"> 
-	     	<p>Lança, dimensiona e detalha fundações do tipo bloco sobre estacas de acordo com os esforços verticais e horizontais da estrutura.  </p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>		
-				<p> O Eberick permite o lançamento, dimensionamento e detalhamento de fundações isoladas do tipo bloco sobre estacas, calculando a quantidade necessária de estacas para atender aos esforços verticais e horizontais da estrutura, de acordo com as características das estacas, trazendo maior segurança nos resultados das fundações.  </p>
-				<p> O programa também permite o dimensionamento de blocos de fundações com estacas tracionadas, para situações de pequenos valores de tração, causados por esforços de momentos fletores, situação comum em fundações com cargas verticais baixas e momentos fletores elevados.  </p>
-				<p> É possível definir blocos com até seis estacas, definir o tipo de estaca e espaçamento entre estacas, que pode ser diferente nas direções x e y, otimizando o tamanho do bloco.  </p>
-				<p> O detalhamento das fundações é feito em corte e em planta, possibilitando ainda incluir, de forma automática, o detalhamento das esperas dos pilares, deixando o detalhamento bastante completo. </p>
-        </div> <!-- //caracteristica-completa -->
-		
-		<small>*Recurso disponível a partir do <span>Eberick V8</span></small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- // modal-blocos-com-ate-6-estacas -->
-
- 
-
-
-
-<div id="modal-qi-editor-de-armaduras" class="reveal-modal large modal-nivel-2">
-	    <h1>modal-qi-editor-de-armaduras </h1>
-	    <div class="caracteristica-resumida"> 
-	     	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt nemo eius incidunt officiis voluptatibus suscipit quos, at dicta obcaecati, quod voluptatem, eaque, perspiciatis a minus culpa perferendis illo optio modi.  </p>
-	    </div> <!-- //caracteristica-resumida -->
-
-	    <div class="caracteristica-completa">
-	    	<hr/>		
-	     	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt nemo eius incidunt officiis voluptatibus suscipit quos, at dicta obcaecati, quod voluptatem, eaque, perspiciatis a minus culpa perferendis illo optio modi.  </p>
-	     	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt nemo eius incidunt officiis voluptatibus suscipit quos, at dicta obcaecati, quod voluptatem, eaque, perspiciatis a minus culpa perferendis illo optio modi.  </p>
-	     	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt nemo eius incidunt officiis voluptatibus suscipit quos, at dicta obcaecati, quod voluptatem, eaque, perspiciatis a minus culpa perferendis illo optio modi.  </p>
-	     	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt nemo eius incidunt officiis voluptatibus suscipit quos, at dicta obcaecati, quod voluptatem, eaque, perspiciatis a minus culpa perferendis illo optio modi.  </p>
-        </div> <!-- //caracteristica-completa -->
-		
-		<small>*Recurso disponível a partir do <span>Eberick VX</span></small>
-    <a class="close-reveal-modal">&#215;</a>
-</div> <!-- // modal-blocos-com-ate-6-estacas -->
-
-
- 
-
-
-
-<!-- '//AREA DOS MODAIS =========================================================================== -->
-
-
-</section> <!-- //grupo-modais -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section class="content light">
-	<div class="wrap">
-		<div class="col-1">
-			<h1>Nova estrutura do Eberick V9</h1>
-		</div> <!-- //col-1 -->
-
-		<div class="col-2">	 
-		<p>
-			Para entender a reestruturação do Eberick  foi criado um infográfico dinâmico, clique  no <span class="versao-anterior">EBERICK V8 - VERSÃO ANTERIOR (1)</span> e verifique como foram divididos os  <span class="recursos-da-base">RECURSOS DA BASE (2)</span> e  <span class="modulos-adicionais">MÓDULOS ADICIONAIS (3)</span> na versão atual <strong class="eberick-v9">EBERICK V9</strong>.
-		</p>
-
-		<p>
-			Aproveite para conhecer melhor os recursos da base e módulos adicionais do <strong class="eberick-v9">EBERICK V9</strong>, clicando em cada item para visualizar a  sua descrição.
-		</p>	 
-  		</div> <!-- //col-2 -->
- 
-<div class="col-2">
- <img class="imagem-legenda" src="img/legenda.png" alt="">
- </div> <!-- //col-1 -->
-		
-		</div>	<!-- // wrap -->
-</section>
-
-
- 
-<svg id="svg-main" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="1279.999px" height="1178.608px" viewBox="0 0 1279.999 1178.608"  	 xml:space="preserve">
-
-  
- 
- 
-<g id="fundo-3">
-	<path fill="#132718" d="M674.207,68.97C385.785,43.737,131.512,257.092,106.279,545.518
-				c-25.231,288.376,188.13,542.667,476.55,567.898c288.43,25.233,542.668-188.146,567.897-476.521
-				C1175.96,348.47,962.637,94.204,674.207,68.97z M628.503,926.672c-185.281,0-335.48-150.2-335.48-335.479
-				c0-185.28,150.199-335.48,335.48-335.48c185.28,0,335.479,150.2,335.479,335.48C963.982,776.472,813.783,926.672,628.503,926.672
-				z"/>
-</g> <!-- //fundo-3 -->
-
-
-
-
-<g id="edi-cor3" class="nivel-3 fundo">
-	<path data-reveal-id="modal-blocos-com-mais-de-6-estacas" 			class="1  neto-fundacoes 		blocos-com-mais-de-6-estacas" 				fill="#167F52" d="M300.6,671.3l-180.6,43.8c7.9,32.3,18.7,63.4,32.3,93L321.3,731C312.6,712,305.7,692.1,300.6,671.3z"/>
-	<path data-reveal-id="modal-tubuloes"				 				class="2  neto-fundacoes 		tubuloes" 									fill="#167F52" d="M292.5,622.8c-0.5-5-0.8-10.1-1.1-15.1l-185.6,8.8c1.6,33.5,6.4,66.1,14,97.7l180.6-43.8 C296.7,654.9,294,639,292.5,622.8z"/>
-	<path data-reveal-id="modal-radier" 								class="3  neto-gold 			radier" 									fill="#167F52" d="M294.3,543.7l-183.9-26.4c-3.4,24.1-5.2,48.8-5.2,73.9c0,8.1,0.2,16.2,0.6,24.3l185.6-8.8 C290.4,585.3,291.4,564.2,294.3,543.7z"/>
-	<path data-reveal-id="modal-rampas" 								class="4  neto-escadas 			rampas" 									fill="#167F52" d="M336,422.9l-160.8-92.8c-16.3,28.2-30.1,58.2-41,89.4l175.5,60.8C316.7,460.3,325.5,441.1,336,422.9z"/>
-	<path data-reveal-id="modal-biblioteca-de-detalhes-tipicos" 		class="5  neto-formas 			biblioteca-de-detalhes-tipicos" 			fill="#167F52" d="M309.4,481.2l-175.5-60.8c-10.7,30.8-18.5,62.8-23.3,95.9l183.9,26.4C297.5,521.6,302.5,501,309.4,481.2z" />
-	<path data-reveal-id="modal-sapatas-corridas-em-apoio-elastico" 	class="6  neto-fundacoes 		sapatas-corridas-em-apoio-elastico"			fill="#167F52" d="M321.7,731.9L152.8,809c13.8,30,30.4,58.5,49.4,85.2l151.1-107.6C341.1,769.5,330.5,751.2,321.7,731.9z"/>
-	<path data-reveal-id="modal-vinculos-elasticos-para-funcacoes" 		class="7  neto-fundacoes 		vinculos-elasticos-para-funcacoes" 			fill="#167F52" d="M353.9,787.4L202.7,895c19.2,26.8,40.8,51.6,64.5,74.3l128-134.3C380.1,820.6,366.2,804.6,353.9,787.4z"/>
-	<path data-reveal-id="modal-fundacoes-associadas" 					class="8  neto-fundacoes 		fundacoes-associadas" 						fill="#167F52" d="M565,922.7l-35.2,182.4c31.8,6.1,64.6,9.3,98.1,9.3V928.7C606.6,928.7,585.5,926.6,565,922.7z"/>
-	<path data-reveal-id="modal-verificacao-em-situacao-de-incendio" 	class="9  neto-incendio  		verificacao-em-situacao-de-incendio" 	 	fill="#167F52" d="M629,928.7v185.8c33.5,0,66.3-3.2,98.1-9.3l-35.2-182.5c-10.4,2-21.1,3.5-31.9,4.5 		C649.6,928.2,639.3,928.6,629,928.7z"/>
-	<path data-reveal-id="modal-vigas-e-pilares-inclinados" 			class="10 neto-escadas 			vigas-e-pilares-inclinados" 				fill="#167F52" d="M373.1,370.6L232.9,249.1c-21.5,24.8-40.6,51.6-57.2,80.1L336.5,422C347.1,403.8,359.3,386.6,373.1,370.6z" 		/>
-	<path data-reveal-id="modal-estacas-metalicas" 						class="11 novo-recurso 			estacas-metalicas" 							fill="#167F52" d="M268,970.1c23.8,22.6,49.7,43.1,77.4,61l100.3-156.2c-17.7-11.5-34.4-24.5-49.7-39.1L268,970.1z"/>
-	<path data-reveal-id="modal-lancamento-de-estacas-isoladas" 		class="12 novo-recurso	 		lancamento-de-estacas-isoladas" 			fill="#167F52" d="M346.2,1031.6c27.5,17.7,56.7,32.9,87.4,45.2l69-172.4c-19.6-7.9-38.4-17.6-56.1-29L346.2,1031.6z"/>
-	<path data-reveal-id="modal-vigas-com-variacao-de-secao-no-trecho" 	class="13 neto-basico 			vigas-com-variacao-de-secao-no-trecho" 		fill="#167F52" d="M920.6,422l160.7-92.8c-16.6-28.5-35.7-55.3-57.2-80.1L883.9,370.6C897.7,386.5,909.9,403.7,920.6,422z"/>
-	<path data-reveal-id="modal-reservatorios-enterrados" 				class="14 neto-reservatorios 	reservatorios-enterrados"					fill="#167F52" d="M728.1,1104.9c32.6-6.3,64.2-15.7,94.4-27.8l-69-172.4c-19.3,7.7-39.5,13.7-60.6,17.7L728.1,1104.9z"/>
-	<path data-reveal-id="modal-escadas-especiais" 						class="15 neto-escadas  		escadas-especiais" 							fill="#167F52" d="M419.5,326.2L304.8,180.4c-25.8,20.4-49.7,43.2-71.3,68l140.2,121.5C387.6,353.9,402.9,339.3,419.5,326.2z" />
-	<path data-reveal-id="modal-pilares-esbeltos-e-pilares-parede"  	class="16 neto-basico 			pilares-esbeltos-e-pilares-parede" 			fill="#167F52" d="M867.7,125.9c-29-15-59.5-27.3-91.3-36.7l-52.3,178.2c20.3,6,40,13.9,58.6,23.5L867.7,125.9z"/>
-	<path data-reveal-id="modal-vigas-com-mesa-colaborante"				class="17 neto-basico 			vigas-com-mesa-colaborante" 				fill="#167F52" d="M951.4,179.7c-25.8-20.3-53.5-38.2-82.8-53.4l-85.1,165c18.8,9.7,36.6,21.2,53.1,34.2L951.4,179.7z"/>
-	<path data-reveal-id="modal-memorial-de-calculo" 					class="18 neto-basico 			memorial-de-calculo" 						fill="#167F52" d="M947.3,480.3l175.5-60.8c-10.9-31.3-24.7-61.2-41-89.4l-160.7,92.8C931.5,441,940.3,460.2,947.3,480.3z"/>
-	<path data-reveal-id="modal-lajes-com-vigotas-protendidas" 			class="19 neto-basico 			lajes-com-vigotas-protendidas"				fill="#167F52" d="M1146.4,516.3c-4.8-33.1-12.6-65.1-23.3-95.9l-175.5,60.8c6.8,19.7,11.8,40.2,14.9,61.5L1146.4,516.3z"/>
-	<path data-reveal-id="modal-vigas-curvas"							class="20 novo-recurso			vigas-curvas" 								fill="#167F52" d="M883.3,369.8l140.2-121.5c-21.6-24.8-45.5-47.6-71.3-68L837.5,326.2C854.1,339.3,869.4,353.9,883.3,369.8z" 		/>
-	<path data-reveal-id="modal-aberturas-em-vigas-e-lajes" 			class="21 neto-gold 			aberturas-em-vigas-e-lajes" 				fill="#167F52" d="M388.4,126.4c-29.3,15.2-57,33.1-82.8,53.4l114.7,145.8c16.5-13,34.3-24.4,53.1-34.2L388.4,126.4z"/>
-	<path data-reveal-id="modal-lajes-planas" 							class="22 neto-gold 			lajes-planas" 								fill="#167F52" d="M480.6,89.2c-31.8,9.4-62.3,21.7-91.3,36.7l85,165c18.6-9.5,38.2-17.4,58.6-23.4L480.6,89.2z"/>
-	<path data-reveal-id="modal-plastificacao-das-lajes" 				class="23 neto-gold 			plastificacao-das-lajes" 					fill="#167F52" d="M578.2,70.4c-33.2,3.2-65.5,9.5-96.6,18.6l52.3,178.3c19.9-5.8,40.6-9.8,62-11.9L578.2,70.4z"/>
-	<path data-reveal-id="modal-pilares-com-secao-composta"  			class="24 neto-basico 			pilares-com-secao-composta"  				fill="#167F52" d="M775.5,89c-31.1-9.1-63.4-15.4-96.6-18.6l-17.7,184.9c21.2,2,42,6.1,62,11.9L775.5,89z"/>
-	<path data-reveal-id="modal-elementos-pre-moldados" 				class="25 elementos-pre-moldados"											fill="#167F52" d="M660.1,255.2l17.7-184.9  		c-16.2-1.5-32.7-2.3-49.3-2.3c-16.6,0-33.1,0.8-49.3,2.3l17.7,184.9c0,0,0,0,0.1,0C618.3,253.2,639.5,253.2,660.1,255.2z"/>
-	<path data-reveal-id="modal-planta-de-locacao-das-estacas" 			class="26 neto-fundacoes 		planta-de-locacao-das-estacas"				fill="#167F52" d="M434.5,1077.2c30.2,12.1,61.7,21.5,94.4,27.8l35.2-182.4c-20.9-4-41.1-10-60.5-17.8L434.5,1077.2z"/>
-	<path data-reveal-id="modal-muros-de-gravidade"  					class="27 neto-muros 			muros-de-gravidade"							fill="#167F52" d="M861.7,835.1l128,134.3c23.7-22.7,45.3-47.6,64.5-74.3L903.1,787.4C890.8,804.5,877,820.5,861.7,835.1z"/>
-	<path data-reveal-id="modal-paredes-de-contencao" 					class="28 neto-reservatorios 	paredes-de-contencao"						fill="#167F52" d="M811.4,874.9L911.7,1031c27.7-17.9,53.6-38.3,77.4-61L861,835.8C845.8,850.3,829.2,863.4,811.4,874.9z"/>
-	<path data-reveal-id="modal-muros-de-concreto" 						class="29 neto-muros 			muros-de-concreto"							fill="#26BC7B" d="M903.7,786.6l151.2,107.7c19-26.7,35.6-55.2,49.4-85.2l-168.9-77.2C926.5,751.1,915.9,769.4,903.7,786.6z" 		/>
-	<path data-reveal-id="modal-lajes-trelicadas-1d-e-2d" 				class="30 neto-lajes-trelicadas lajes-trelicadas-1d-e-2d" 					fill="#167F52" d="M1137.2,714.1c7.6-31.5,12.4-64.2,14-97.7l-185.5-8.8c-1,21.4-4,42.4-8.9,62.7L1137.2,714.1z"/>
-	<path data-reveal-id="modal-qi-editor-de-armaduras" 				class="31 neto-basico 				qi-editor-de-armaduras"					fill="#167F52" d="M1146.6,517.3l-183.9,26.4c0.7,5.3,1.4,10.5,1.9,15.9c1.5,15.9,1.8,31.6,1.1,47.1l185.5,8.8 		c0.4-8,0.6-16.1,0.6-24.3C1151.8,566.1,1150,541.5,1146.6,517.3z"/>
-	<path data-reveal-id="modal-lajes-nervuradas" 						class="32 neto-basico lajes-nervuradas"						            	fill="#167F52" d="M1104.6,808.1c13.6-29.6,24.4-60.7,32.3-93l-180.5-43.8c-5,20.7-12,40.6-20.7,59.7L1104.6,808.1z"/>
-	<path data-reveal-id="modal-reservatorios-elevados"					class="33 neto-reservatorios 	reservatorios-elevados" 					fill="#167F52" d="M823.4,1076.8c30.7-12.4,59.9-27.5,87.4-45.2L810.5,875.4c-17.6,11.3-36.4,21-56.1,28.9L823.4,1076.8z"/>
+			<rect x="882.4" y="258.2" transform="matrix(-0.8689 0.495 -0.495 -0.8689 1781.1221 52.058)" fill="#060606" width="2.5" height="7.5"/>
+	</g>
+	<circle id="background-roda" fill="#FFFFFF" cx="628.5" cy="591.2" r="524.2"/>
+</g>
+
+
+
+<g id="edi-cor3">
+	<path fill="#009973" d="M1082.4,329.8l-0.5-0.9l-0.6,0.3c0.2,0.3,0.3,0.6,0.5,0.9L1082.4,329.8z"/>
+	<path fill="#167F52" d="M300.6,671.3l-180.6,43.8c7.9,32.3,18.7,63.4,32.3,93L321.3,731C312.6,712,305.7,692.1,300.6,671.3z"/>
+	<path fill="#167F52" d="M292.5,622.8c-0.5-5-0.8-10.1-1.1-15.1l-185.6,8.8c1.6,33.5,6.4,66.1,14,97.7l180.6-43.8 C296.7,654.9,294,639,292.5,622.8z"/>
+	<path fill="#167F52" d="M294.3,543.7l-183.9-26.4c-3.4,24.1-5.2,48.8-5.2,73.9c0,8.1,0.2,16.2,0.6,24.3l185.6-8.8 C290.4,585.3,291.4,564.2,294.3,543.7z"/>
+	<path fill="#167F52" d="M336,422.9l-160.8-92.8c-16.3,28.2-30.1,58.2-41,89.4l175.5,60.8C316.7,460.3,325.5,441.1,336,422.9z"/>
+	<path fill="#167F52" d="M309.4,481.2l-175.5-60.8c-10.7,30.8-18.5,62.8-23.3,95.9l183.9,26.4C297.5,521.6,302.5,501,309.4,481.2z" />
+	<path fill="#167F52" d="M321.7,731.9L152.8,809c13.8,30,30.4,58.5,49.4,85.2l151.1-107.6C341.1,769.5,330.5,751.2,321.7,731.9z"/>
+	<path fill="#167F52" d="M353.9,787.4L202.7,895c19.2,26.8,40.8,51.6,64.5,74.3l128-134.3C380.1,820.6,366.2,804.6,353.9,787.4z"/>
+	<path fill="#167F52" d="M565,922.7l-35.2,182.4c31.8,6.1,64.6,9.3,98.1,9.3V928.7C606.6,928.7,585.5,926.6,565,922.7z"/>
+	<path fill="#167F52" d="M629,928.7v185.8c33.5,0,66.3-3.2,98.1-9.3l-35.2-182.5c-10.4,2-21.1,3.5-31.9,4.5 		C649.6,928.2,639.3,928.6,629,928.7z"/>
+	<path fill="#167F52" d="M373.1,370.6L232.9,249.1c-21.5,24.8-40.6,51.6-57.2,80.1L336.5,422C347.1,403.8,359.3,386.6,373.1,370.6z" 		/>
+	<path fill="#167F52" d="M268,970.1c23.8,22.6,49.7,43.1,77.4,61l100.3-156.2c-17.7-11.5-34.4-24.5-49.7-39.1L268,970.1z"/>
+	<path fill="#167F52" d="M346.2,1031.6c27.5,17.7,56.7,32.9,87.4,45.2l69-172.4c-19.6-7.9-38.4-17.6-56.1-29L346.2,1031.6z"/>
+	<path fill="#167F52" d="M920.6,422l160.7-92.8c-16.6-28.5-35.7-55.3-57.2-80.1L883.9,370.6C897.7,386.5,909.9,403.7,920.6,422z"/>
+	<path fill="#167F52" d="M728.1,1104.9c32.6-6.3,64.2-15.7,94.4-27.8l-69-172.4c-19.3,7.7-39.5,13.7-60.6,17.7L728.1,1104.9z"/>
+	<path fill="#167F52" d="M419.5,326.2L304.8,180.4c-25.8,20.4-49.7,43.2-71.3,68l140.2,121.5C387.6,353.9,402.9,339.3,419.5,326.2z" />
+	<path fill="#167F52" d="M867.7,125.9c-29-15-59.5-27.3-91.3-36.7l-52.3,178.2c20.3,6,40,13.9,58.6,23.5L867.7,125.9z"/>
+	<path fill="#167F52" d="M951.4,179.7c-25.8-20.3-53.5-38.2-82.8-53.4l-85.1,165c18.8,9.7,36.6,21.2,53.1,34.2L951.4,179.7z"/>
+	<path fill="#167F52" d="M947.3,480.3l175.5-60.8c-10.9-31.3-24.7-61.2-41-89.4l-160.7,92.8C931.5,441,940.3,460.2,947.3,480.3z"/>
+	<path fill="#167F52" d="M1146.4,516.3c-4.8-33.1-12.6-65.1-23.3-95.9l-175.5,60.8c6.8,19.7,11.8,40.2,14.9,61.5L1146.4,516.3z"/>
+	<path fill="#167F52" d="M883.3,369.8l140.2-121.5c-21.6-24.8-45.5-47.6-71.3-68L837.5,326.2C854.1,339.3,869.4,353.9,883.3,369.8z" 		/>
+	<path fill="#167F52" d="M388.4,126.4c-29.3,15.2-57,33.1-82.8,53.4l114.7,145.8c16.5-13,34.3-24.4,53.1-34.2L388.4,126.4z"/>
+	<path fill="#167F52" d="M480.6,89.2c-31.8,9.4-62.3,21.7-91.3,36.7l85,165c18.6-9.5,38.2-17.4,58.6-23.4L480.6,89.2z"/>
+	<path fill="#167F52" d="M578.2,70.4c-33.2,3.2-65.5,9.5-96.6,18.6l52.3,178.3c19.9-5.8,40.6-9.8,62-11.9L578.2,70.4z"/>
+	<path fill="#167F52" d="M775.5,89c-31.1-9.1-63.4-15.4-96.6-18.6l-17.7,184.9c21.2,2,42,6.1,62,11.9L775.5,89z"/>
+	<path fill="#167F52" stroke="#AAE2AA" stroke-width="2" stroke-miterlimit="10" d="M660.1,255.2l17.7-184.9  		c-16.2-1.5-32.7-2.3-49.3-2.3c-16.6,0-33.1,0.8-49.3,2.3l17.7,184.9c0,0,0,0,0.1,0C618.3,253.2,639.5,253.2,660.1,255.2z"/>
+	<path fill="#167F52" d="M434.5,1077.2c30.2,12.1,61.7,21.5,94.4,27.8l35.2-182.4c-20.9-4-41.1-10-60.5-17.8L434.5,1077.2z"/>
+	<path fill="#167F52" d="M861.7,835.1l128,134.3c23.7-22.7,45.3-47.6,64.5-74.3L903.1,787.4C890.8,804.5,877,820.5,861.7,835.1z"/>
+	<path fill="#167F52" d="M811.4,874.9L911.7,1031c27.7-17.9,53.6-38.3,77.4-61L861,835.8C845.8,850.3,829.2,863.4,811.4,874.9z"/>
+	<path fill="#26BC7B" d="M903.7,786.6l151.2,107.7c19-26.7,35.6-55.2,49.4-85.2l-168.9-77.2C926.5,751.1,915.9,769.4,903.7,786.6z" 		/>
+	<path fill="#167F52" d="M1137.2,714.1c7.6-31.5,12.4-64.2,14-97.7l-185.5-8.8c-1,21.4-4,42.4-8.9,62.7L1137.2,714.1z"/>
+	<path fill="#167F52" d="M1146.6,517.3l-183.9,26.4c0.7,5.3,1.4,10.5,1.9,15.9c1.5,15.9,1.8,31.6,1.1,47.1l185.5,8.8 		c0.4-8,0.6-16.1,0.6-24.3C1151.8,566.1,1150,541.5,1146.6,517.3z"/>
+	<path fill="#167F52" d="M1104.6,808.1c13.6-29.6,24.4-60.7,32.3-93l-180.5-43.8c-5,20.7-12,40.6-20.7,59.7L1104.6,808.1z"/>
+	<path fill="#167F52" d="M823.4,1076.8c30.7-12.4,59.9-27.5,87.4-45.2L810.5,875.4c-17.6,11.3-36.4,21-56.1,28.9L823.4,1076.8z"/>
 </g>
 
 <g id="texto-3">
- 	<g>
+	<path id="apoio-desligada" display="none" fill="#FFFFFF" d="M989.4,627.7C969.2,827,791.3,972.2,592,952.1 		C392.7,931.9,247.5,754,267.6,554.7C287.8,355.4,465.7,210.2,665,230.3C864.3,250.5,1009.5,428.4,989.4,627.7z"/>
+	<g>
 		<path fill="#FFFFFF" d="M704.5,232.8c-0.1,0.4-0.1,0.7,0.1,1c0.2,0.3,0.4,0.4,0.6,0.5c0.3,0.1,0.5,0,0.6-0.1			c0.1-0.1,0.3-0.4,0.6-0.8c0.2-0.4,0.4-0.7,0.5-0.9c0.1-0.2,0.3-0.4,0.5-0.6c0.3-0.3,0.8-0.4,1.4-0.3c0.9,0.2,1.6,0.7,2,1.4 			c0.4,0.7,0.4,1.6,0.2,2.7c-0.2,0.8-0.5,1.5-0.8,2.2l-0.2,0.3l-1.2-0.6c0.4-0.9,0.7-1.7,0.8-2.3c0.2-1.1,0-1.8-0.8-1.9  			c-0.2,0-0.4,0-0.5,0.2c-0.1,0.1-0.3,0.5-0.6,1.1c-0.3,0.6-0.6,1-0.9,1.3c-0.3,0.3-0.8,0.4-1.3,0.3c-0.9-0.2-1.6-0.7-2-1.4			c-0.4-0.7-0.5-1.5-0.3-2.4c0.2-0.9,0.5-1.6,0.8-2.3l0.2-0.3l1.2,0.6C704.9,231.2,704.7,232.1,704.5,232.8z"/>
 		<path fill="#FFFFFF" d="M709.7,228.7c0.3,0.1,0.6,0,0.9-0.2c0.2-0.2,0.4-0.5,0.5-0.8c0.2-0.8,0.3-1.5,0.3-2.3l0-0.4l1.2,0.5			c0.1,1,0,2-0.2,3c-0.4,1.7-1.4,2.3-3.1,2c-1.5-0.3-2.7-0.9-3.6-1.8c-0.5-0.5-0.8-1-1-1.6c-0.2-0.6-0.2-1.3-0.1-2			c0.4-1.7,1.3-2.4,2.7-2.1c1,0.2,1.6,0.7,1.8,1.5c0.2,0.8,0.2,1.9-0.2,3.5l-0.1,0.7C709.1,228.5,709.4,228.6,709.7,228.7z			 M707.8,227.2c0.2-0.9,0.2-1.5,0.1-1.9c-0.1-0.4-0.4-0.7-0.9-0.8c-0.5-0.1-0.9,0.2-1,0.8c-0.2,1.1,0.3,2,1.6,2.6L707.8,227.2z"/>
 		<path fill="#FFFFFF" d="M706.3,217.7c0.1-0.6,0.4-1.2,0.7-1.8l0.2-0.3l1.2,0.7c-0.3,0.7-0.5,1.3-0.6,1.8c-0.2,0.7,0.1,1.4,0.8,2			c0.7,0.6,1.5,0.9,2.5,1.2c1,0.2,1.6-0.1,1.8-1c0.1-0.4,0.2-0.9,0.2-1.5l0-0.3l1.3,0.4c0.1,0.7,0,1.4-0.1,2.1l0.4,0.2l0-0.1			c0.2-0.9,0.6-1.3,1.3-1.2c0.1,0,0.2,0.1,0.4,0.1c1,0.5,1.3,1.2,1.1,2.2c-0.1,0.3-0.2,0.7-0.4,1.1l-0.1,0.2l-1-0.5			c0.1-0.3,0.2-0.6,0.2-0.8c0.1-0.4,0-0.7-0.3-0.8c-0.2-0.1-0.3-0.1-0.3,0c-0.1,0.1-0.1,0.2-0.2,0.4l-0.1,0.5l-1.2-0.6			c-0.2,0.6-0.6,1-1.1,1.3c-0.5,0.2-1.1,0.3-1.8,0.1c-1.6-0.3-2.9-1-3.8-1.9C706.3,220.1,706,219,706.3,217.7z"/>
@@ -4295,42 +2791,47 @@
 	</g>
 </g>
 <g id="fundo-2">
-	<path id="background_12_" d="M964.497,559.618
-		c-17.43-185.561-181.994-321.86-367.567-304.421c-185.563,17.44-321.859,182.011-304.422,367.57
-		C309.95,808.338,474.516,944.625,660.079,927.19C845.65,909.75,981.938,745.189,964.497,559.618z M628.503,770.552
-		c-99.057,0-179.359-80.303-179.359-179.358c0-99.058,80.302-179.36,179.359-179.36c99.056,0,179.358,80.303,179.358,179.36
-		C807.861,690.25,727.56,770.552,628.503,770.552z"></path>
 	
+		<image overflow="visible" opacity="0.75" width="2950" height="2950" xlink:href="B6BCA1ADBF1C70CE.png"  transform="matrix(0.24 0 0 0.24 283.5049 246.1929)">
+	</image>
+	<g>
+		<g>
+			<path id="background_12_" fill="#132718" stroke="#132718" stroke-width="3" stroke-miterlimit="10" d="M964.5,559.6
+				c-17.4-185.6-182-321.9-367.6-304.4c-185.6,17.4-321.9,182-304.4,367.6c17.4,185.6,182,321.9,367.6,304.4
+				C845.7,909.7,981.9,745.2,964.5,559.6z M628.5,770.6c-99.1,0-179.4-80.3-179.4-179.4c0-99.1,80.3-179.4,179.4-179.4
+				c99.1,0,179.4,80.3,179.4,179.4C807.9,690.2,727.6,770.6,628.5,770.6z"/>
+			<circle id="apoio-desliga_12_" display="none" fill="#FFFFFF" cx="627.7" cy="591.4" r="196.8"/>
+		</g>
+	</g>
 </g>
-
-
-
-<g id="edi-cor2" class="nivel-2">
-	<path data-reveal-id="modal-planta-de-formas" 							class="1  filho-formas 	 	planta-de-formas" 							fill="#04572B" d="M300.7,671.3c7.6,31.1,19.4,60.4,34.8,87.2l137-78.8c-8-14.1-14.1-29.3-18.1-45.4L300.7,671.3z"/>
-	<path data-reveal-id="modal-planta-de-locacao-de-cargas" 				class="2  filho-formas 	 	planta-de-locacao-de-cargas" 				fill="#04572B" d="M449.3,583.3l-158-8c-1.5,32,1.5,63.4,8.7,93.5L453.8,632c-3-13.1-4.7-26.7-4.7-40.8		C449.2,588.5,449.2,585.9,449.3,583.3z"/>
-	<path data-reveal-id="modal-configuracoes-para-o-projeto" 				class="15 filho-basico   	configuracoes-para-o-projeto" 				fill="#04572B" d="M903.7,786.3c18.1-25.4,32.7-53.4,43.2-83.2l-149.3-51.9c-5.5,15.5-13.1,30.1-22.4,43.3L903.7,786.3z"/>
-	<path data-reveal-id="modal-cortes-na-estrutura" 						class="14 filho-basico   	cortes-na-estrutura" 						fill="#26BC7B" d="M947.6,701c10.1-29.3,16.3-60.2,17.9-92.2l-158-7.7c-0.9,16.7-4.1,32.8-9.3,48L947.6,701z"/>
-	<path data-reveal-id="modal-lajes-pre-moldadas-convencionais" 			class="13 filho-basico   	lajes-pre-moldadas-convencionais" 			fill="#04572B" d="M807.7,598.8l158,7.7c0.7-15.4,0.4-31.1-1.1-46.9c-1.5-15.8-4.1-31.3-7.6-46.3l-153.7,37		c3.1,13.1,4.7,26.8,4.7,40.9C807.9,593.8,807.8,596.3,807.7,598.8z"/>
-	<path data-reveal-id="modal-blocos-com-ate-6-estacas" 					class="22 filho-fundacoes 	blocos-com-ate-6-estacas" 					fill="#04572B" d="M473.6,681.6l-137,78.8c15.9,27.3,35.4,52.1,57.9,73.7L503.7,720C492,708.7,481.9,695.8,473.6,681.6z"/>
-	<path data-reveal-id="modal-detalhamento-dos-elementos" 				class="20 filho-basico      detalhamento-dos-elementos" 				fill="#04572B" d="M474.5,891.4c27.6,14.2,57.4,24.7,88.5,30.9l30.2-155.2c-16.3-3.2-31.7-8.7-46.1-16L474.5,891.4z"/>
-	<path data-reveal-id="modal-portico-3d" 								class="19 filho-basico   	portico-3d" 								fill="#04572B" d="M595.4,767.5l-30.2,155.2c30.2,5.8,61.6,7.5,93.7,4.6l-14.8-157.4c-5.2,0.4-10.4,0.7-15.7,0.7		C617.2,770.6,606.1,769.5,595.4,767.5z"/>
-	<path data-reveal-id="modal-lajes-macicas" 								class="12 filho-basico   	lajes-macicas" 								fill="#04572B" d="M956.4,511.1c-7.6-31.1-19.4-60.4-34.8-87.2l-137,78.9c8,14.1,14.1,29.3,18.1,45.4L956.4,511.1z"/>
-	<path data-reveal-id="modal-resumo-dos-materiais" 						class="18 filho-basico   	resumo-dos-materiais" 						fill="#04572B" d="M661.2,927.1c32.1-3.1,62.6-10.7,91.2-22l-58.5-146.9c-15,5.9-30.9,9.8-47.5,11.4L661.2,927.1z"/>
-	<path data-reveal-id="modal-dimensionamento-dos-elementos" 				class="17 filho-basico  	dimensionamento-dos-elementos" 				fill="#04572B" d="M754.5,904.3c29.4-11.9,56.7-27.7,81.2-46.8L738.3,733c-12.8,9.9-27,18.2-42.3,24.4L754.5,904.3z"/>
-	<path data-reveal-id="modal-sapatas-isoladas-e-de-divisa" 				class="21 filho-fundacoes 	sapatas-isoladas-e-de-divisa"				fill="#04572B" d="M396.2,835.7c22.8,21.6,48.5,40,76.4,54.6L545.1,750c-14.5-7.7-27.9-17.2-39.7-28.4L396.2,835.7z"/>
-	<path data-reveal-id="modal-analise-dos-esforcos-e-deslocamentos" 		class="16 filho-basico  	analise-dos-esforcos-e-deslocamentos" 		fill="#04572B" d="M740,731.6L837.5,856c24.7-19.5,46.5-42.4,64.8-67.9l-128.6-91.8C764.2,709.6,752.8,721.5,740,731.6z"/>
-	<path data-reveal-id="modal-flechas-imediatas-e-diferidas" 				class="7  filho-master 	 	flechas-imediatas-e-diferidas" 				fill="#04572B" d="M595.8,255.3c-32.1,3.1-62.6,10.7-91.2,22l58.5,146.9c15-5.9,30.9-9.8,47.5-11.4L595.8,255.3z"/>
-	<path data-reveal-id="modal-ferramentas-de-lancamento-para-o-projeto" 	class="9  filho-basico	 	ferramentas-de-lancamento-para-o-projeto" 	fill="#04572B" d="M782.5,291c-27.6-14.2-57.4-24.7-88.5-30.9l-30.2,155.2c16.3,3.3,31.7,8.7,46.1,16L782.5,291z"/>
-	<path data-reveal-id="modal-cad-basico" 								class="8  filho-basico 	 	cad-basico" 								fill="#04572B" d="M661.6,414.9l30.2-155.2c-30.2-5.8-61.6-7.5-93.7-4.6l14.8,157.4c5.2-0.4,10.4-0.7,15.6-0.7		C639.8,411.8,650.9,412.9,661.6,414.9z"/>
-	<path data-reveal-id="modal-armaduras-complementares-de-lajes"   		class="5  filho-gold 	 	armaduras-complementares-de-lajes" 			fill="#04572B" d="M517,450.7l-97.5-124.4c-24.7,19.5-46.5,42.4-64.8,67.9L483.2,486C492.8,472.8,504.2,460.9,517,450.7z"/>
-	<path data-reveal-id="modal-esforcos-horizontais" 						class="6  filho-master 	 	esforcos-horizontais" 						fill="#04572B" d="M502.5,278.1c-29.4,11.9-56.7,27.7-81.2,46.8l97.5,124.4c12.8-9.9,27-18.2,42.3-24.4L502.5,278.1z"/>
-	<path data-reveal-id="modal-escadas-convencionais"  					class="3  filho-escadas	 	escadas-convencionais" 						fill="#04572B" d="M309.4,481.4c-10.1,29.3-16.3,60.2-17.9,92.2l157.9,7.7c0.9-16.7,4.1-32.8,9.3-48L309.4,481.4z"/>
-	<path data-reveal-id="modal-dimensionamento-refinado-das-lajes"  		class="4  filho-gold 	 	dimensionamento-refinado-das-lajes" 		fill="#04572B" d="M353.4,396.1c-18.1,25.4-32.7,53.4-43.2,83.2l149.3,51.9c5.5-15.5,13.1-30.1,22.4-43.3L353.4,396.1z"/>
-	<path data-reveal-id="modal-vigas-com-secao-retangular" 				class="11 filho-basico   	vigas-com-secao-retangular" 				fill="#04572B" d="M783.4,500.8l137-78.9c-15.9-27.3-35.4-52.1-57.9-73.7L753.3,462.4C765,473.7,775.1,486.6,783.4,500.8z"/>
-	<path data-reveal-id="modal-pilares-com-secao-retangular-circular-e-l" 	class="10 filho-basico   	pilares-com-secao-retangular-circular-e-l" 	fill="#04572B" d="M860.9,346.7c-22.8-21.6-48.5-40-76.4-54.6l-72.6,140.4c14.5,7.7,27.9,17.2,39.7,28.4L860.9,346.7z"/>
+<g id="edi-cor2">
+	<path fill="#04572B" d="M300.7,671.3c7.6,31.1,19.4,60.4,34.8,87.2l137-78.8c-8-14.1-14.1-29.3-18.1-45.4L300.7,671.3z"/>
+	<path fill="#04572B" d="M449.3,583.3l-158-8c-1.5,32,1.5,63.4,8.7,93.5L453.8,632c-3-13.1-4.7-26.7-4.7-40.8
+		C449.2,588.5,449.2,585.9,449.3,583.3z"/>
+	<path fill="#04572B" d="M903.7,786.3c18.1-25.4,32.7-53.4,43.2-83.2l-149.3-51.9c-5.5,15.5-13.1,30.1-22.4,43.3L903.7,786.3z"/>
+	<path fill="#26BC7B" d="M947.6,701c10.1-29.3,16.3-60.2,17.9-92.2l-158-7.7c-0.9,16.7-4.1,32.8-9.3,48L947.6,701z"/>
+	<path fill="#04572B" d="M807.7,598.8l158,7.7c0.7-15.4,0.4-31.1-1.1-46.9c-1.5-15.8-4.1-31.3-7.6-46.3l-153.7,37
+		c3.1,13.1,4.7,26.8,4.7,40.9C807.9,593.8,807.8,596.3,807.7,598.8z"/>
+	<path fill="#04572B" d="M473.6,681.6l-137,78.8c15.9,27.3,35.4,52.1,57.9,73.7L503.7,720C492,708.7,481.9,695.8,473.6,681.6z"/>
+	<path fill="#04572B" d="M474.5,891.4c27.6,14.2,57.4,24.7,88.5,30.9l30.2-155.2c-16.3-3.2-31.7-8.7-46.1-16L474.5,891.4z"/>
+	<path fill="#04572B" d="M595.4,767.5l-30.2,155.2c30.2,5.8,61.6,7.5,93.7,4.6l-14.8-157.4c-5.2,0.4-10.4,0.7-15.7,0.7
+		C617.2,770.6,606.1,769.5,595.4,767.5z"/>
+	<path fill="#04572B" d="M956.4,511.1c-7.6-31.1-19.4-60.4-34.8-87.2l-137,78.9c8,14.1,14.1,29.3,18.1,45.4L956.4,511.1z"/>
+	<path fill="#04572B" d="M661.2,927.1c32.1-3.1,62.6-10.7,91.2-22l-58.5-146.9c-15,5.9-30.9,9.8-47.5,11.4L661.2,927.1z"/>
+	<path fill="#04572B" d="M754.5,904.3c29.4-11.9,56.7-27.7,81.2-46.8L738.3,733c-12.8,9.9-27,18.2-42.3,24.4L754.5,904.3z"/>
+	<path fill="#04572B" d="M396.2,835.7c22.8,21.6,48.5,40,76.4,54.6L545.1,750c-14.5-7.7-27.9-17.2-39.7-28.4L396.2,835.7z"/>
+	<path fill="#04572B" d="M740,731.6L837.5,856c24.7-19.5,46.5-42.4,64.8-67.9l-128.6-91.8C764.2,709.6,752.8,721.5,740,731.6z"/>
+	<path fill="#04572B" d="M595.8,255.3c-32.1,3.1-62.6,10.7-91.2,22l58.5,146.9c15-5.9,30.9-9.8,47.5-11.4L595.8,255.3z"/>
+	<path fill="#04572B" d="M782.5,291c-27.6-14.2-57.4-24.7-88.5-30.9l-30.2,155.2c16.3,3.3,31.7,8.7,46.1,16L782.5,291z"/>
+	<path fill="#04572B" d="M661.6,414.9l30.2-155.2c-30.2-5.8-61.6-7.5-93.7-4.6l14.8,157.4c5.2-0.4,10.4-0.7,15.6-0.7
+		C639.8,411.8,650.9,412.9,661.6,414.9z"/>
+	<path fill="#04572B" d="M517,450.7l-97.5-124.4c-24.7,19.5-46.5,42.4-64.8,67.9L483.2,486C492.8,472.8,504.2,460.9,517,450.7z"/>
+	<path fill="#04572B" d="M502.5,278.1c-29.4,11.9-56.7,27.7-81.2,46.8l97.5,124.4c12.8-9.9,27-18.2,42.3-24.4L502.5,278.1z"/>
+	<path fill="#04572B" d="M309.4,481.4c-10.1,29.3-16.3,60.2-17.9,92.2l157.9,7.7c0.9-16.7,4.1-32.8,9.3-48L309.4,481.4z"/>
+	<path fill="#04572B" d="M353.4,396.1c-18.1,25.4-32.7,53.4-43.2,83.2l149.3,51.9c5.5-15.5,13.1-30.1,22.4-43.3L353.4,396.1z"/>
+	<path fill="#04572B" d="M783.4,500.8l137-78.9c-15.9-27.3-35.4-52.1-57.9-73.7L753.3,462.4C765,473.7,775.1,486.6,783.4,500.8z"/>
+	<path fill="#04572B" d="M860.9,346.7c-22.8-21.6-48.5-40-76.4-54.6l-72.6,140.4c14.5,7.7,27.9,17.2,39.7,28.4L860.9,346.7z"/>
 </g>
-
-
 <g id="texto-2">
 	<g>
 		<g>
@@ -6403,53 +4904,176 @@
 		<path fill="#FFFFFF" d="M830.7,337.3l-3.4,4.4l-7.1-8.7l1.1-1.4l6.1,7.4l2.3-3L830.7,337.3z"/>
 	</g>
 </g>
-
 <g id="fundo-1">
- 	<path d="M628.503,418.693c-95.269,0-172.5,77.23-172.5,172.5c0,95.269,77.231,172.5,172.5,172.5
-	c95.269,0,172.5-77.231,172.5-172.5C801.003,495.923,723.771,418.693,628.503,418.693z M677.871,607.234
-	c-8.781,27.03-38.006,41.76-65.269,32.9c-27.268-8.859-42.25-37.952-33.467-64.982c8.781-27.029,38.004-41.76,65.271-32.9
-	C671.67,551.111,686.654,580.204,677.871,607.234z"/>
-</g> <!-- // nivel-1 -->
-
-
-
-<g id="edit-cor1" class="nivel-1">
-	<path class="pai 1"  id="basico" 			fill="#0B2A1A" d="M658.3,549.2l71.1-97.8c-28.3-20.5-62.9-32.6-100.4-32.7v121c5.1,0.1,10.3,0.9,15.4,2.			C649.5,543.9,654.2,546.3,658.3,549.2z"/>
-	<path class="pai 2"  id="gold" 				fill="#0B2A1A" d="M597.7,549.6L526.7,452c-28.7,21.1-50.7,50.8-62.1,85.4l114.7,37.3C582.8,564.2,589.4,555.7,597.7,549.6z"		/>
-	<path class="pai 3"  id="escadas" 			fill="#0B2A1A" d="M579,575.7l-114.7-37.3c-5.4,16.6-8.3,34.4-8.3,52.8c0,18.4,2.9,36.2,8.3,52.8l114.9-37.3			C576,596.9,575.7,586.1,579,575.7z"/>
-	<path class="pai 4"  id="lajes-trelicadas" 	fill="#26BC7B" d="M677.6,574.7l114.8-37.3C781,502.8,759,473.1,730.3,452l-71.1,97.8C667.8,556.2,674.1,564.9,677.6,574.7z"			/>
-	<path class="pai 5"  id="muros"				fill="#0B2A1A" d="M678,606.7L792.7,644c5.4-16.6,8.3-34.4,8.3-52.8c0-18.4-2.9-36.2-8.3-52.8l-114.9,37.3			C681,585.5,681.3,596.2,678,606.7z"/>
-	<path class="pai 6"  id="reservatorios" 		fill="#0B2A1A" d="M659.4,632.7l70.9,97.6c28.7-21.1,50.7-50.8,62.1-85.4l-114.7-37.3C674.2,618.1,667.6,626.7,659.4,632.7z"		/>
-	<path class="pai 7"  id="formas" 			ffill="#0B2A1A" d="M579.5,607.7L464.6,645c11.4,34.5,33.4,64.3,62.1,85.4l71.1-97.8C589.2,626.2,582.9,617.5,579.5,607.7z"/>
-	<path class="pai 8"  id="master" 			fill="#0B2A1A" d="M628,418.7c-37.5,0.1-72.1,12.2-100.4,32.7l70.9,97.6c8.5-5.9,18.8-9.3,29.4-9.3V418.7z"/>
-	<path class="pai 9"  id="incendio" 			fill="#0B2A1A" d="M629,763.7c37.5-0.1,72.1-12.2,100.4-32.7l-70.9-97.6c-8.5,5.9-18.8,9.3-29.4,9.3V763.7z"/>
-	<path class="pai 10" id="fundacoes" 		fill="#0B2A1A" d="M598.7,633.2L527.6,731c28.3,20.5,62.9,32.6,100.4,32.7v-121c-5.1-0.1-10.3-0.9-15.4-2.6			C607.5,638.5,602.8,636.1,598.7,633.2z"/>
- </g> <!-- // nivel-1 -->
-
- 
-
-
-
-<g id="logo-eberick-v9" xdata-reveal-id="modal-sobre-o-eberick">
-	<g class="losangolo">
- 		<polygon class="" fill-rule="evenodd" clip-rule="evenodd" fill="#181919" points="655.158,591.285 646.302,575.943 646.301,575.947  646.299,575.943 646.272,575.99 628.425,545.097 601.848,591.099 610.705,606.441 610.706,606.439 610.707,606.441  610.734,606.396 628.582,637.289 			"></polygon>
- 	</g> <!-- // losangolo -->
-
-	<g class="simbolo-v9">
-		<polygon fill="#333333" points="634.21,600.978 629.006,604.44 623.804,600.967 629.006,597.883 		"></polygon>
-		<polygon fill="#646569" points="629.034,604.44 634.21,600.998 629.034,597.918 		"></polygon>
-		<polygon fill="#999999" points="634.21,588.973 629.006,592.111 623.836,588.959 629.019,585.937 		"></polygon>
-		<polygon fill="#FFFFFF" points="640.064,583.009 635.096,586.171 635.096,600.711 640.064,596.913 		"></polygon>
-		<polygon fill="#999999" points="629.936,583.056 635.096,586.171 640.064,583.009 634.923,579.947 		"></polygon>
-		<polygon fill="#FFFFFF" points="618.26,583.009 623.229,586.17 623.229,600.711 618.26,596.913 		"></polygon>
-		<polygon fill="#999999" points="628.388,583.056 623.229,586.17 618.26,583.009 623.4,579.946 		"></polygon>
-		<polygon fill="#CCCCCC" points="634.21,588.973 629.006,592.111 629.006,604.44 634.21,600.983 		"></polygon>
-		<polygon fill="#FFFFFF" points="634.21,600.978 629.006,604.44 623.804,600.967 629.006,597.883 		"></polygon>
+	<g>
+		<g>
+			<g id="apoio-desliiga_15_" display="none">
+				<g display="inline">
+					
+						<rect x="602.4" y="587.1" transform="matrix(0.9514 0.3078 -0.3078 0.9514 235.4761 -153.0624)" fill="#434696" width="1" height="165.5"/>
+				</g>
+				<g display="inline">
+					
+						<rect x="571.3" y="669.4" transform="matrix(0.3091 0.951 -0.951 0.3091 1089.0431 -159.1957)" fill="#434696" width="165.5" height="1"/>
+				</g>
+				<g display="inline">
+					
+						<rect x="612.7" y="639.3" transform="matrix(0.809 0.5878 -0.5878 0.809 508.9382 -286.5892)" fill="#434696" width="165.5" height="1"/>
+				</g>
+				<g display="inline">
+					<rect x="628.5" y="590.7" fill="#434696" width="165.5" height="1"/>
+				</g>
+				<g display="inline">
+					
+						<rect x="695" y="459.8" transform="matrix(0.5875 0.8092 -0.8092 0.5875 725.8768 -338.9905)" fill="#434696" width="1" height="165.5"/>
+				</g>
+				<g display="inline">
+					
+						<rect x="653.6" y="429.7" transform="matrix(0.9514 0.3079 -0.3079 0.9514 189.5908 -176.5077)" fill="#434696" width="1" height="165.5"/>
+				</g>
+				<g display="inline">
+					
+						<rect x="520.2" y="512" transform="matrix(0.3091 0.951 -0.951 0.3091 903.9653 -219.3167)" fill="#434696" width="165.5" height="1"/>
+				</g>
+				<g display="inline">
+					
+						<rect x="478.8" y="542" transform="matrix(0.809 0.5878 -0.5878 0.809 426.1583 -226.4527)" fill="#434696" width="165.5" height="1"/>
+				</g>
+				<g display="inline">
+					<rect x="463" y="590.7" fill="#434696" width="165.5" height="1"/>
+				</g>
+				<g display="inline">
+					
+						<rect x="561" y="557.1" transform="matrix(0.5879 0.8089 -0.8089 0.5879 749.0046 -190.5685)" fill="#434696" width="1" height="165.5"/>
+				</g>
+			</g>
+			<path fill="#F5F9F4" d="M628.5,418.7c-95.3,0-172.5,77.2-172.5,172.5c0,95.3,77.2,172.5,172.5,172.5
+				c95.3,0,172.5-77.2,172.5-172.5C801,495.9,723.8,418.7,628.5,418.7z M677.9,607.2c-8.8,27-38,41.8-65.3,32.9
+				c-27.3-8.9-42.2-38-33.5-65c8.8-27,38-41.8,65.3-32.9C671.7,551.1,686.7,580.2,677.9,607.2z"/>
+		</g>
+	</g>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="456" y="418.7" width="345" height="345">
+			
+				<feColorMatrix  type="matrix" values="-1 0 0 0 1  0 -1 0 0 1  0 0 -1 0 1  0 0 0 1 0" color-interpolation-filters="sRGB" result="source"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="456" y="418.7" width="345" height="345" id="SVGID_1_">
+		<g filter="url(#Adobe_OpacityMaskFilter)">
+			
+				<image overflow="visible" width="1455" height="1455" xlink:href="B6BCA1ADBF1C70CA.jpg"  transform="matrix(0.24 0 0 0.24 454.0029 416.6929)">
+			</image>
+		</g>
+	</mask>
+	<g opacity="0.75" mask="url(#SVGID_1_)">
+		<g>
+			<g id="apoio-desliiga_12_" display="none">
+				<g display="inline">
+					
+						<rect x="602.4" y="587.1" transform="matrix(0.9514 0.3078 -0.3078 0.9514 235.4761 -153.0624)" fill="#FFFFFF" width="1" height="165.5"/>
+				</g>
+				<g display="inline">
+					
+						<rect x="571.3" y="669.4" transform="matrix(0.3091 0.951 -0.951 0.3091 1089.0431 -159.1957)" fill="#FFFFFF" width="165.5" height="1"/>
+				</g>
+				<g display="inline">
+					
+						<rect x="612.7" y="639.3" transform="matrix(0.809 0.5878 -0.5878 0.809 508.9382 -286.5892)" fill="#FFFFFF" width="165.5" height="1"/>
+				</g>
+				<g display="inline">
+					<rect x="628.5" y="590.7" fill="#FFFFFF" width="165.5" height="1"/>
+				</g>
+				<g display="inline">
+					
+						<rect x="695" y="459.8" transform="matrix(0.5875 0.8092 -0.8092 0.5875 725.8768 -338.9905)" fill="#FFFFFF" width="1" height="165.5"/>
+				</g>
+				<g display="inline">
+					
+						<rect x="653.6" y="429.7" transform="matrix(0.9514 0.3079 -0.3079 0.9514 189.5908 -176.5077)" fill="#FFFFFF" width="1" height="165.5"/>
+				</g>
+				<g display="inline">
+					
+						<rect x="520.2" y="512" transform="matrix(0.3091 0.951 -0.951 0.3091 903.9653 -219.3167)" fill="#FFFFFF" width="165.5" height="1"/>
+				</g>
+				<g display="inline">
+					
+						<rect x="478.8" y="542" transform="matrix(0.809 0.5878 -0.5878 0.809 426.1583 -226.4527)" fill="#FFFFFF" width="165.5" height="1"/>
+				</g>
+				<g display="inline">
+					<rect x="463" y="590.7" fill="#FFFFFF" width="165.5" height="1"/>
+				</g>
+				<g display="inline">
+					
+						<rect x="561" y="557.1" transform="matrix(0.5879 0.8089 -0.8089 0.5879 749.0046 -190.5685)" fill="#FFFFFF" width="1" height="165.5"/>
+				</g>
+			</g>
+			<path fill="#FFFFFF" d="M628.5,418.7c-95.3,0-172.5,77.2-172.5,172.5c0,95.3,77.2,172.5,172.5,172.5
+				c95.3,0,172.5-77.2,172.5-172.5C801,495.9,723.8,418.7,628.5,418.7z M677.9,607.2c-8.8,27-38,41.8-65.3,32.9
+				c-27.3-8.9-42.2-38-33.5-65c8.8-27,38-41.8,65.3-32.9C671.7,551.1,686.7,580.2,677.9,607.2z"/>
+		</g>
 	</g>
 </g>
-
-
-
+<g id="edit-cor1">
+	<g>
+		<path fill="#0B2A1A" d="M658.3,549.2l71.1-97.8c-28.3-20.5-62.9-32.6-100.4-32.7v121c5.1,0.1,10.3,0.9,15.4,2.6
+			C649.5,543.9,654.2,546.3,658.3,549.2z"/>
+	</g>
+	<g>
+		<path fill="#0B2A1A" d="M597.7,549.6L526.7,452c-28.7,21.1-50.7,50.8-62.1,85.4l114.7,37.3C582.8,564.2,589.4,555.7,597.7,549.6z"
+			/>
+	</g>
+	<g>
+		<path fill="#0B2A1A" d="M579,575.7l-114.7-37.3c-5.4,16.6-8.3,34.4-8.3,52.8c0,18.4,2.9,36.2,8.3,52.8l114.9-37.3
+			C576,596.9,575.7,586.1,579,575.7z"/>
+	</g>
+	<g>
+		<path fill="#26BC7B" d="M677.6,574.7l114.8-37.3C781,502.8,759,473.1,730.3,452l-71.1,97.8C667.8,556.2,674.1,564.9,677.6,574.7z"
+			/>
+	</g>
+	<g>
+		<path fill="#0B2A1A" d="M678,606.7L792.7,644c5.4-16.6,8.3-34.4,8.3-52.8c0-18.4-2.9-36.2-8.3-52.8l-114.9,37.3
+			C681,585.5,681.3,596.2,678,606.7z"/>
+	</g>
+	<g>
+		<path fill="#0B2A1A" d="M659.4,632.7l70.9,97.6c28.7-21.1,50.7-50.8,62.1-85.4l-114.7-37.3C674.2,618.1,667.6,626.7,659.4,632.7z"
+			/>
+	</g>
+	<g>
+		<path fill="#0B2A1A" d="M579.5,607.7L464.6,645c11.4,34.5,33.4,64.3,62.1,85.4l71.1-97.8C589.2,626.2,582.9,617.5,579.5,607.7z"/>
+	</g>
+	<g>
+		<path fill="#0B2A1A" d="M628,418.7c-37.5,0.1-72.1,12.2-100.4,32.7l70.9,97.6c8.5-5.9,18.8-9.3,29.4-9.3V418.7z"/>
+	</g>
+	<g>
+		<path fill="#0B2A1A" d="M629,763.7c37.5-0.1,72.1-12.2,100.4-32.7l-70.9-97.6c-8.5,5.9-18.8,9.3-29.4,9.3V763.7z"/>
+	</g>
+	<g>
+		<path fill="#0B2A1A" d="M598.7,633.2L527.6,731c28.3,20.5,62.9,32.6,100.4,32.7v-121c-5.1-0.1-10.3-0.9-15.4-2.6
+			C607.5,638.5,602.8,636.1,598.7,633.2z"/>
+	</g>
+</g>
+<g id="logo-eberick_2_">
+	<g>
+		
+			<image overflow="visible" opacity="0.75" width="348" height="510" xlink:href="B6BCA1ADBF1C70C9.png"  transform="matrix(0.24 0 0 0.24 589.8476 533.0972)">
+		</image>
+		<g>
+			<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#181919" points="655.2,591.3 646.3,575.9 646.3,575.9 646.3,575.9 
+				646.3,576 628.4,545.1 601.8,591.1 610.7,606.4 610.7,606.4 610.7,606.4 610.7,606.4 628.6,637.3 			"/>
+		</g>
+	</g>
+	<g>
+		<polygon fill="#333333" points="634.2,601 629,604.4 623.8,601 629,597.9 		"/>
+		<polygon fill="#646569" points="629,604.4 634.2,601 629,597.9 		"/>
+		<polygon fill="#999999" points="634.2,589 629,592.1 623.8,589 629,585.9 		"/>
+		<polygon fill="#FFFFFF" points="640.1,583 635.1,586.2 635.1,600.7 640.1,596.9 		"/>
+		<polygon fill="#999999" points="629.9,583.1 635.1,586.2 640.1,583 634.9,579.9 		"/>
+		<polygon fill="#FFFFFF" points="618.3,583 623.2,586.2 623.2,600.7 618.3,596.9 		"/>
+		<polygon fill="#999999" points="628.4,583.1 623.2,586.2 618.3,583 623.4,579.9 		"/>
+		<polygon fill="#CCCCCC" points="634.2,589 629,592.1 629,604.4 634.2,601 		"/>
+		<polygon fill="#FFFFFF" points="634.2,601 629,604.4 623.8,601 629,597.9 		"/>
+	</g>
+</g>
 <g id="tex-1">
 	<g>
 		<g>
@@ -6788,51 +5412,4 @@
 		</g>
 	</g>
 </g>
- 
- 
 </svg>
-
-
-	
-
-	<div class="footer">
-		<div class="copyright">
-			<strong>©S3ENG - TECNOLOGIA APLICADA À ENGENHARIA S/A.</strong> | (11) 2666.4920 - (21) 2169.8725 - (48) 3027.9000
-		</div><!-- //copyright -->
-		<ul class="social-share">
-			<li>
-				
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&appId=101168563293906&version=v2.0";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-			
-<div class="fb-like" data-href="http://www.altoqi.com.br/hotsite/altoqi-interacao-modulos-eberick-v9/index.html" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
-
-
-			</li>
-			<li>
-			<a href="https://twitter.com/share" class="twitter-share-button" data-via="altoqi" data-lang="pt">Tweetar</a>
-			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-
-
-			</li>
-		</ul>
-	</div> <!-- //footer -->
-
-
-		<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.min.js"></script>
-  <script src="js/svgclass.js"></script>
- <script src="js/eberick-v9-svg.js"></script>
-
- <script src="js/jquery.reveal.js" type="text/javascript"></script>
-
-
-
-
-</body>
-</html>
