@@ -3,6 +3,23 @@
 @import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,300,700,200);
 
 
+
+
+@mixin clearfix {
+	&:before,
+	&:after {
+		display: table;
+		content: '';
+	}
+	&:after {
+		clear: both;
+	}
+}
+
+
+
+
+
  body{
 	margin: 0;
 	padding: 0;
@@ -16,11 +33,11 @@
 
 
 .header {
+		@include clearfix;
 	border-bottom: 5px solid #26BC7B;
 	display: inline-block;
 	width: 100%;
 	background: rgba(0,0,0,0.2);
-	clear: both;
 
 	 .nav-menu-top{
 		list-style: none;
@@ -59,16 +76,6 @@
 }
 
 
-@mixin clearfix {
-	&:before,
-	&:after {
-		display: table;
-		content: '';
-	}
-	&:after {
-		clear: both;
-	}
-}
 
 
 
