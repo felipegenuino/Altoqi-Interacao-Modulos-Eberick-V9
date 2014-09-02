@@ -4,7 +4,8 @@ Hotsite | Módulos do Eberick V9
 
 Hotsite que apresenta a integração entre módulos do software Eberick V9, utilizando HTML5, SVG e jQuery.
 
-![imagem](https://raw.githubusercontent.com/felipegenuino/altoqi-interacao-modulos-eberick-v9/master/img/printscreen.jpg)
+![imagem](https://raw.githubusercontent.com/felipegenuino/Altoqi-Interacao-Modulos-Eberick-V9/gh-pages/img/printscreen.jpg)
+![imagem](https://raw.githubusercontent.com/felipegenuino/Altoqi-Interacao-Modulos-Eberick-V9/gh-pages/img/interaction.gif)
 
 
 
